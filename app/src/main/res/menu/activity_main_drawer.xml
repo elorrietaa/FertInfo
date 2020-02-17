@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_fertilizacion_"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_infertilidad"
+            android:icon="@drawable/ic_microscopio"
+            android:title="@string/menu_infertilidad" />
+        <item
+            android:id="@+id/nav_seminograma"
+            android:icon="@drawable/ic_esperma"
+            android:title="@string/menu_seminograma" />
+        <item
+        android:id="@+id/nav_hormonas"
+        android:icon="@drawable/ic_quimica"
+        android:title="@string/menu_hormonas" />
+        <item
+            android:id="@+id/nav_genetica"
+            android:icon="@drawable/ic_cromosomas"
+            android:title="@string/menu_genetica" />
+        <item
+            android:id="@+id/nav_bibliografia"
+            android:icon="@drawable/ic_libro"
+            android:title="@string/menu_bibliografia" />
+        <item
+            android:id="@+id/nav_otros"
+            android:icon="@drawable/ic_idea"
+            android:title="@string/menu_otros" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>
