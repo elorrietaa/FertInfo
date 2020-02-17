@@ -1,0 +1,61 @@
+<resources>
+    <!-- Strings related to login -->
+    <string name="app_name">FertInfo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">FertInfo</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to menu -->
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_infertilidad">Infertilidad</string>
+    <string name="menu_seminograma">Seminograma</string>
+    <string name="menu_hormonas">Análisis hormonales</string>
+    <string name="menu_genetica">Estudio genético</string>
+    <string name="menu_bibliografia">Bibliografía</string>
+    <string name="menu_otros">Otros</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="mensaje_compartir">FertInfo, todo lo que necesitas saber sobre infertilidad masculina.</string>
+
+    <!-- Strings related to menu derecha -->
+    <string name="opcion_menu1">Calendario</string>
+    <string name="opcion_menu2">Acerca de</string>
+
+    <!-- Strings related to Introducción: infertilidad -->
+    <string name="infertilidad_titulo0">Infertilidad masculina</string>
+    <string name="infertilidad_titulo1">DEFINICIÓN Y TIPOS:</string>
+    <string name="infertilidad_parrafo1">
+        La infertilidad es la incapacidad de una pareja sexualmente activa de concebir
+después un año de relaciones sexuales sin protección (1). Aproximadamente un 15% de
+las parejas presentan problemas de fertilidad y en la mitad de los casos, los parámetros
+anormales del semen apuntan a un factor asociado a la infertilidad masculina. Las
+causas de la infertilidad masculina son heterogéneas, pero más del 40% de los casos
+tienen una base genética. Sin embargo, en un 50% de los casos no se determinan
+        causas conocidas.
+    </string>
+    <string name="infertilidad_definicion1">Infertilidad/esterilidad primaria:</string>
+    <string name="infertilidad_definicion1_1">Condición por la que una pareja nunca ha conseguido lograr un embarazo o llevarlo
+a término de manera natural (2).</string>
+    <string name="infertilidad_definicion2">Infertilidad/esterilidad secundaria:</string>
+    <string name="infertilidad_definicion2_1">Condición por la que una pareja, tras un primer embarazo, no consigue quedarse
+embarazada o llevarlo a término otra vez.</string>
+    <string name="infertilidad_titulo2">FACTORES ETIOLÓGICOS IMPLICADOS EN LA INFERTILIDAD MASCULINA</string>
+    <string name="infertilidad_parrafo2">La infertilidad afecta al 10 a 15% de los hombres durante su edad reproductiva. Se
+ha descrito su naturaleza multifactorial, por lo que se reconoce como un grupo
+clínicamente heterogéneo en el que el diagnóstico puede variar ampliamente entre
+pacientes. Cualquier estudio realizado en varones en el marco reproductivo debe ir
+precedido por un estudio andrológico, que debe incluir al menos la historia clínica y el
+análisis de semen (4). Entre la gran variedad de factores que pueden influir en la
+fertilidad, la práctica clínica se centra en evaluar los factores etiológicos implicados en
+la infertilidad masculina (Tabla 1) (6) , que son los factores adquiridos y genéticos.
+
+    </string>
+
+</resources>

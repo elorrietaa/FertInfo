@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_height="694dp"
+        android:layout_marginTop="52dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txtTitulo0"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:text="@string/infertilidad_titulo0"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/infertilidad_titulo1"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtParrafo1"
+                android:layout_width="wrap_content"
+                android:layout_height="173dp"
+                android:text="@string/infertilidad_parrafo1" />
+
+            <TextView
+                android:id="@+id/txtDef1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/infertilidad_definicion1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDef11"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:text="@string/infertilidad_definicion1_1" />
+
+            <TextView
+                android:id="@+id/txtDef2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/infertilidad_definicion2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDef21"
+                android:layout_width="wrap_content"
+                android:layout_height="62dp"
+                android:text="@string/infertilidad_definicion2_1" />
+
+            <TextView
+                android:id="@+id/txtTitulo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/infertilidad_titulo2"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtParrafo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/infertilidad_parrafo2" />
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_tabla1_"
+                tools:ignore="VectorDrawableCompat" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
