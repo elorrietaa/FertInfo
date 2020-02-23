@@ -18,9 +18,9 @@
             android:icon="@drawable/ic_esperma"
             android:title="@string/menu_seminograma" />
         <item
-        android:id="@+id/nav_hormonas"
-        android:icon="@drawable/ic_quimica"
-        android:title="@string/menu_hormonas" />
+            android:id="@+id/nav_hormonas"
+            android:icon="@drawable/ic_quimica"
+            android:title="@string/menu_hormonas" />
         <item
             android:id="@+id/nav_genetica"
             android:icon="@drawable/ic_cromosomas"
