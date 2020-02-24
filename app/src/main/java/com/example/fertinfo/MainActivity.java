@@ -67,6 +67,11 @@ public class MainActivity extends AppCompatActivity {
             Intent i = new Intent(this,MapsActivity.class);
             startActivity(i);
         }
+        if (id==R.id.opcion2) {
+            Intent i = new Intent(this,AnalisisActivity.class);
+            startActivity(i);
+        }
+
 
 
         return super.onOptionsItemSelected(item);
