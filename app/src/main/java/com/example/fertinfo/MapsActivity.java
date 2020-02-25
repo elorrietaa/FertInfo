@@ -91,7 +91,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                                     sydney = new LatLng(lat, lon);
                                     mMap.addMarker(new MarkerOptions().position(sydney).title("My Ubicación").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
                                     mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(sydney, 8.0f));
-                                    // mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(sydney, zoom));
+                                     mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(sydney, zoom));
 
 
 
@@ -211,6 +211,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
                 mMap.addMarker(new MarkerOptions().position(sydney).title(name));
                 mMap.setMapType(mMap.MAP_TYPE_NORMAL);
+
 
 
 

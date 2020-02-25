@@ -80,7 +80,7 @@ public class MyAdapterAnalisis extends RecyclerView.Adapter<MyAdapterAnalisis.My
                         .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                Log.d("MainActivity", "Sending atomic bombs to Jupiter");
+
 
                             }
                         })
