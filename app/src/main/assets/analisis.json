@@ -1,0 +1,70 @@
+[ {
+  "nombre" : "Analisis 00",
+  "fecha" : "22/01/2019",
+  "descrip" : "Las pruebas de laboratorio examinan muestras de sangre, orina o tejidos corporales. Un técnico o el médico analizan las muestras para determinar si los resultados están dentro de los límites normales. Los análisis usan un rango de valores porque lo que se considera normal varía de una persona a otra. Muchos factores afectan los resultados de los análisis. "
+
+}, {
+  "nombre" : "Analisis 01",
+  "fecha" : "3/04/2019",
+  "descrip" : "Las pruebas de laboratorio examinan muestras de sangre, orina o tejidos corporales. Un técnico o el médico analizan las muestras para determinar si los resultados están dentro de los límites normales. Los análisis usan un rango de valores porque lo que se considera normal varía de una persona a otra. Muchos factores afectan los resultados de los análisis. "
+
+}, {
+  "nombre" : "Analisis 02",
+  "fecha" : "22/01/2017",
+  "descrip" : "Osasun-zentroa"
+}, {
+  "nombre" : "Analisis 03",
+  "fecha" : "2/01/2018",
+  "descrip" : "Osasun-zentroa"
+
+}, {
+  "nombre" : "Analisis 04",
+  "fecha" : "22/09/2019",
+  "descrip" : "Osasun-zentroa"
+
+}, {
+  "nombre" : "Analisis 05",
+  "fecha" : "12/01/2019",
+  "descrip" : "Osasun-zentroa"
+
+}, {
+  "nombre" : "Analisis 06",
+  "fecha" : "22/01/2019",
+  "descrip" : "Osasun-zentroa"
+
+}, {
+  "nombre" : "Analisis 07",
+  "fecha" : "22/01/2019",
+  "descrip" : "Osasun-zentroa"
+
+}, {
+  "nombre" : "Analisis 08",
+  "fecha" : "22/01/2019",
+  "descrip" : "Osasun-zentroa"
+
+}, {
+  "nombre" : "Analisis 09",
+  "fecha" : "22/01/2019",
+  "descrip" : "Osasun-zentroa"
+
+}, {
+  "nombre" : "Analisis 010",
+  "fecha" : "22/01/2019",
+  "descrip" : "Osasun-zentroa"
+
+}, {
+  "nombre" : "Analisis 011",
+  "fecha" : "22/01/2019",
+  "descrip" : "Osasun-zentroa"
+
+}, {
+  "nombre" : "Analisis 012",
+  "fecha" : "1/04/2017",
+  "descrip" : "Osasun-zentroa"
+
+}, {
+  "nombre" : "Analisis 013",
+  "fecha" : "27/05/2018",
+  "descrip" : "Osasun-zentroa"
+
+} ]

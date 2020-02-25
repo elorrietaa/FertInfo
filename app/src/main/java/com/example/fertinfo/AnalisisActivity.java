@@ -7,11 +7,22 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
+
 public class AnalisisActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private RecyclerView.LayoutManager layoutManager;
     private RecyclerView.Adapter mAdapter;
-    private String[] mDataset;
+    private ArrayList<Analisis> mDataset ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,8 +39,54 @@ public class AnalisisActivity extends AppCompatActivity {
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
+
+        //LEER JASON ANALISIS
+        mDataset = new ArrayList<Analisis>();
+
+        try {
+            JSONArray jArray = new JSONArray(readJSONFromAsset());
+            for (int i = 0; i < jArray.length(); ++i) {
+                Analisis analisis=new Analisis();
+
+
+                String nombre=jArray.getJSONObject(i).getString("nombre");
+                String fecha=jArray.getJSONObject(i).getString("fecha");
+                String descrip=jArray.getJSONObject(i).getString("descrip");
+                analisis.setNombre(nombre);
+                analisis.setFecha(fecha);
+                analisis.setDescrip(descrip);
+                mDataset.add(analisis);
+
+
+
+
+
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
         // specify an adapter (see also next example)
         mAdapter = new MyAdapterAnalisis(mDataset);
         recyclerView.setAdapter(mAdapter);
     }
+
+
+    public String readJSONFromAsset() {
+        String json = null;
+        String jason = "analisis.json";
+        try {
+            InputStream is = getAssets().open(jason);
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            json = new String(buffer, "UTF-8");
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            return null;
+        }
+        return json;
+    }
+
 }
