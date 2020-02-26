@@ -49,6 +49,7 @@
         android:layout_marginRight="24dp"
         android:layout_marginBottom="32dp"
         android:background="@drawable/help"
+        android:onClick="pedirCita"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

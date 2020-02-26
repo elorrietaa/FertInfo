@@ -38,7 +38,8 @@ public class MyAdapterAnalisis extends RecyclerView.Adapter<MyAdapterAnalisis.My
 
     // Provide a suitable constructor (depends on the kind of dataset)
     public MyAdapterAnalisis(ArrayList<Analisis> myDataset) {
-        mDataset = myDataset;
+
+        this.mDataset = myDataset;
     }
 
     // Create new views (invoked by the layout manager)
@@ -95,6 +96,7 @@ public class MyAdapterAnalisis extends RecyclerView.Adapter<MyAdapterAnalisis.My
     // Return the size of your dataset (invoked by the layout manager)
     @Override
     public int getItemCount() {
+
         return mDataset.size();
     }
 }

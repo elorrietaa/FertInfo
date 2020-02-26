@@ -5,7 +5,9 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -22,7 +24,7 @@ public class AnalisisActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private RecyclerView.LayoutManager layoutManager;
     private RecyclerView.Adapter mAdapter;
-    private ArrayList<Analisis> mDataset ;
+    private ArrayList<Analisis> mDataset;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,7 +42,7 @@ public class AnalisisActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
 
 
-        //LEER JASON ANALISIS
+        //LEER JSON ANALISIS
         mDataset = new ArrayList<Analisis>();
 
         try {
@@ -56,9 +58,6 @@ public class AnalisisActivity extends AppCompatActivity {
                 analisis.setFecha(fecha);
                 analisis.setDescrip(descrip);
                 mDataset.add(analisis);
-
-
-
 
 
             }
@@ -87,6 +86,13 @@ public class AnalisisActivity extends AppCompatActivity {
             return null;
         }
         return json;
+    }
+
+    public void pedirCita(View v){
+
+        Intent i = new Intent(this,WebActivity.class);
+        startActivity(i);
+
     }
 
 }
