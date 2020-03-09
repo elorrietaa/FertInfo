@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
     EditText user;
@@ -36,6 +37,13 @@ public class LoginActivity extends AppCompatActivity {
             startActivity(i);
             finish();
         }
+
+
+    }
+    public void registro(View v){
+        Toast.makeText(this,"registro",Toast.LENGTH_LONG).show();
+
+
 
 
     }
