@@ -50,7 +50,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     double lat;
     FusedLocationProviderClient mFusedLocationClient;
     SeekBar seekbar;
-    Integer zoom=5;
+    Integer zoom=8;
     LatLng sydney;
 
 

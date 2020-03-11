@@ -5,8 +5,10 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.google.android.gms.maps.model.LatLng;
@@ -25,10 +27,13 @@ public class AnalisisActivity extends AppCompatActivity {
     private RecyclerView.LayoutManager layoutManager;
     private RecyclerView.Adapter mAdapter;
     private ArrayList<Analisis> mDataset;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_analisis);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("Inicio");
 
         recyclerView = (RecyclerView) findViewById(R.id.recyclerview);
 
@@ -68,6 +73,17 @@ public class AnalisisActivity extends AppCompatActivity {
         // specify an adapter (see also next example)
         mAdapter = new MyAdapterAnalisis(mDataset);
         recyclerView.setAdapter(mAdapter);
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == android.R.id.home) {
+            Intent i = new Intent(this,MainActivity.class);
+            startActivity(i);
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
 
