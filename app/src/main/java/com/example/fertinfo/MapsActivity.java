@@ -239,18 +239,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         title.setGravity(Gravity.CENTER);
                         title.setTypeface(null, Typeface.BOLD);
                         title.setText(marker.getTitle());
-
                         TextView snippet = new TextView(getApplicationContext());
                         snippet.setTextColor(Color.GRAY);
                         snippet.setText(marker.getSnippet());
-
-
-
-
-
-
-
-
                         info.addView(title);
                         info.addView(snippet);
 
