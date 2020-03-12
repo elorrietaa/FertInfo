@@ -57,6 +57,7 @@
         android:paddingBottom="2dp"
         android:scaleType="fitXY"
         android:src="@drawable/ic_cromosomas"
+        android:tint="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
@@ -74,6 +75,7 @@
         android:paddingBottom="2dp"
         android:scaleType="fitXY"
         android:src="@drawable/ic_esperma"
+        android:tint="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
@@ -91,6 +93,7 @@
         android:paddingBottom="2dp"
         android:scaleType="fitXY"
         android:src="@drawable/ic_quimica"
+        android:tint="@color/colorPrimary"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
@@ -108,6 +111,7 @@
         android:paddingBottom="2dp"
         android:scaleType="fitXY"
         android:src="@drawable/ic_microscopio"
+        android:tint="@color/colorPrimary"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
