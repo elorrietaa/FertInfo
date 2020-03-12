@@ -10,12 +10,18 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
+import android.graphics.Typeface;
 import android.location.Location;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.os.Looper;
 import android.provider.Settings;
+import android.view.Gravity;
+import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.SeekBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.fertinfo.R;
@@ -31,6 +37,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.Circle;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -206,11 +213,50 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
                 lati=Double.parseDouble(jArray.getJSONObject(i).getString("LATWGS84"));
                 longi=Double.parseDouble(jArray.getJSONObject(i).getString("LONWGS84"));
+                String helbidea =jArray.getJSONObject(i).getString("Helbidea");
+                String ordutegia =jArray.getJSONObject(i).getString("Herritarrentzakozerbitzuarenordutegia");
                 LatLng sydney = new LatLng(lati, longi);
 
 
-                mMap.addMarker(new MarkerOptions().position(sydney).title(name));
+                mMap.addMarker(new MarkerOptions().position(sydney).title(name).snippet("Helbidea:"+helbidea+"\n"+"Ordutegia:"+ordutegia).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
                 mMap.setMapType(mMap.MAP_TYPE_NORMAL);
+                mMap.setInfoWindowAdapter(new GoogleMap.InfoWindowAdapter() {
+
+                    @Override
+                    public View getInfoWindow(Marker arg0) {
+
+                        return null;
+                    }
+
+                    @Override
+                    public View getInfoContents(Marker marker) {
+
+                        LinearLayout info = new LinearLayout(getApplicationContext());
+                        info.setOrientation(LinearLayout.VERTICAL);
+
+                        TextView title = new TextView(getApplicationContext());
+                        title.setTextColor(Color.BLACK);
+                        title.setGravity(Gravity.CENTER);
+                        title.setTypeface(null, Typeface.BOLD);
+                        title.setText(marker.getTitle());
+
+                        TextView snippet = new TextView(getApplicationContext());
+                        snippet.setTextColor(Color.GRAY);
+                        snippet.setText(marker.getSnippet());
+
+
+
+
+
+
+
+
+                        info.addView(title);
+                        info.addView(snippet);
+
+                        return info;
+                    }
+                });
 
 
 

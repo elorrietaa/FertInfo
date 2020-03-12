@@ -22,12 +22,11 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="414dp"
-        android:layout_height="198dp"
+        android:layout_width="420dp"
+        android:layout_height="181dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/salud" />
-
 
     <TextView
         android:id="@+id/textView13"
@@ -53,7 +52,7 @@
         android:layout_marginRight="32dp"
         android:background="@drawable/estilo_boton"
         android:onClick="infert"
-        android:padding="5dp"
+        android:padding="15dp"
         android:paddingTop="2dp"
         android:paddingBottom="2dp"
         android:scaleType="fitXY"
@@ -70,7 +69,7 @@
         android:layout_marginRight="35dp"
         android:background="@drawable/estilo_boton"
         android:onClick="infert"
-        android:padding="5dp"
+        android:padding="15dp"
         android:paddingTop="2dp"
         android:paddingBottom="2dp"
         android:scaleType="fitXY"
@@ -87,7 +86,7 @@
         android:layout_marginTop="40dp"
         android:background="@drawable/estilo_boton"
         android:onClick="infert"
-        android:padding="5dp"
+        android:padding="15dp"
         android:paddingTop="2dp"
         android:paddingBottom="2dp"
         android:scaleType="fitXY"
@@ -104,7 +103,7 @@
         android:layout_marginTop="48dp"
         android:background="@drawable/estilo_boton"
         android:onClick="infert"
-        android:padding="5dp"
+        android:padding="15dp"
         android:paddingTop="2dp"
         android:paddingBottom="2dp"
         android:scaleType="fitXY"

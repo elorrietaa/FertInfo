@@ -33,7 +33,7 @@ public class AnalisisActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_analisis);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Inicio");
+        getSupportActionBar().setTitle("Mis Análisis");
 
         recyclerView = (RecyclerView) findViewById(R.id.recyclerview);
 
