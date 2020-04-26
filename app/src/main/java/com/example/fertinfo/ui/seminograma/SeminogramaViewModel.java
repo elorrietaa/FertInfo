@@ -10,7 +10,7 @@ public class SeminogramaViewModel extends ViewModel {
 
     public SeminogramaViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is seminograma fragment");
+        mText.setValue("");
     }
 
     public LiveData<String> getText() {

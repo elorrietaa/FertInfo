@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -16,4 +17,160 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtSeminograma_titulo0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_titulo0" />
+
+            <TextView
+                android:id="@+id/txtSeminograma_titulo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_titulo1" />
+
+            <TextView
+                android:id="@+id/txtSeminograma_definicion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_definicion1" />
+
+            <TextView
+                android:id="@+id/txtseminograma_tabla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/infertilidad_titulo2" />
+
+            <TextView
+                android:id="@+id/txtseminograma_parrafo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_parrafo1" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tabla2" />
+
+            <TextView
+                android:id="@+id/txtseminograma_parrafo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_parrafo2" />
+
+            <TextView
+                android:id="@+id/txtseminograma_def1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_def1" />
+
+            <TextView
+                android:id="@+id/txtseminograma_def2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_def2" />
+
+            <TextView
+                android:id="@+id/txtseminograma_def3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_def3" />
+
+            <TextView
+                android:id="@+id/txtseminograma_def4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_def4" />
+
+            <TextView
+                android:id="@+id/txtseminograma_def5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_def5" />
+
+            <TextView
+                android:id="@+id/txtseminograma_def6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_def6" />
+
+            <TextView
+                android:id="@+id/txtseminograma_def7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_def7" />
+
+            <TextView
+                android:id="@+id/txtseminograma_def8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_def8" />
+
+            <TextView
+                android:id="@+id/txtseminograma_def9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_def9" />
+
+            <TextView
+                android:id="@+id/txtseminograma_def10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_def10" />
+
+            <TextView
+                android:id="@+id/txtseminograma_def11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_def11" />
+
+            <TextView
+                android:id="@+id/txtseminograma_def12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_def12" />
+
+            <TextView
+                android:id="@+id/txtseminograma_def13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_def13" />
+
+            <TextView
+                android:id="@+id/txtseminograma_def14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_def14" />
+
+            <TextView
+                android:id="@+id/txtseminograma_parrafo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_parrafo3" />
+
+            <ImageView
+                android:id="@+id/imgfigura1esperm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/figura1" />
+
+            <TextView
+                android:id="@+id/txtseminograma_figura1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seminograma_figura1" />
+        </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

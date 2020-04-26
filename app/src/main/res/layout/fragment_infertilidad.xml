@@ -4,23 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    android:baselineAligned="false"
     android:gravity="center"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/text_gallery"
-        android:layout_width="match_parent"
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="477dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp" />
+        app:srcCompat="@drawable/esperm" />
 
 
     <ScrollView
-        android:layout_width="380dp"
-        android:layout_height="694dp"
+        android:layout_width="400dp"
+        android:layout_height="894dp"
         android:layout_marginTop="52dp">
 
         <LinearLayout
@@ -48,7 +46,7 @@
             <TextView
                 android:id="@+id/txtParrafo1"
                 android:layout_width="match_parent"
-                android:layout_height="235dp"
+                android:layout_height="169dp"
                 android:text="@string/infertilidad_parrafo1" />
 
             <TextView
@@ -74,7 +72,7 @@
             <TextView
                 android:id="@+id/txtDef21"
                 android:layout_width="match_parent"
-                android:layout_height="95dp"
+                android:layout_height="54dp"
                 android:text="@string/infertilidad_definicion2_1" />
 
             <TextView
@@ -88,16 +86,32 @@
             <TextView
                 android:id="@+id/txtParrafo2"
                 android:layout_width="match_parent"
-                android:layout_height="256dp"
+                android:layout_height="228dp"
                 android:text="@string/infertilidad_parrafo2" />
 
+
+            <TextView
+                android:id="@+id/txtinfertilidad_tabla1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/infertilidad_tabla1" />
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ic_tabla1_"
+                android:layout_height="450dp"
+                app:srcCompat="@drawable/tabla1"
                 tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:id="@+id/text_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
         </LinearLayout>
 
     </ScrollView>

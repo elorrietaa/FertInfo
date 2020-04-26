@@ -10,7 +10,7 @@ public class HormonasViewModel extends ViewModel {
 
     public HormonasViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is hormonas fragment");
+        mText.setValue("");
     }
 
     public LiveData<String> getText() {

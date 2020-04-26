@@ -42,21 +42,136 @@ tienen una base genética. Sin embargo, en un 50% de los casos no se determinan
     </string>
     <string name="infertilidad_definicion1">Infertilidad/esterilidad primaria:</string>
     <string name="infertilidad_definicion1_1">Condición por la que una pareja nunca ha conseguido lograr un embarazo o llevarlo
-a término de manera natural (2).</string>
+    a término de manera natural (2).</string>
     <string name="infertilidad_definicion2">Infertilidad/esterilidad secundaria:</string>
     <string name="infertilidad_definicion2_1">Condición por la que una pareja, tras un primer embarazo, no consigue quedarse
-embarazada o llevarlo a término otra vez.</string>
+    embarazada o llevarlo a término otra vez.</string>
     <string name="infertilidad_titulo2">FACTORES ETIOLÓGICOS IMPLICADOS EN LA INFERTILIDAD MASCULINA</string>
     <string name="infertilidad_parrafo2">La infertilidad afecta al 10 a 15% de los hombres durante su edad reproductiva. Se
-ha descrito su naturaleza multifactorial, por lo que se reconoce como un grupo
-clínicamente heterogéneo en el que el diagnóstico puede variar ampliamente entre
-pacientes. Cualquier estudio realizado en varones en el marco reproductivo debe ir
-precedido por un estudio andrológico, que debe incluir al menos la historia clínica y el
-análisis de semen (4). Entre la gran variedad de factores que pueden influir en la
-fertilidad, la práctica clínica se centra en evaluar los factores etiológicos implicados en
-la infertilidad masculina (Tabla 1) (6) , que son los factores adquiridos y genéticos.
+    ha descrito su naturaleza multifactorial, por lo que se reconoce como un grupo
+    clínicamente heterogéneo en el que el diagnóstico puede variar ampliamente entre
+    pacientes. Cualquier estudio realizado en varones en el marco reproductivo debe ir
+    precedido por un estudio andrológico, que debe incluir al menos la historia clínica y el
+    análisis de semen (4). Entre la gran variedad de factores que pueden influir en la
+    fertilidad, la práctica clínica se centra en evaluar los factores etiológicos implicados en
+    la infertilidad masculina (Tabla 1) (6) , que son los factores adquiridos y genéticos.
 
     </string>
+    <string name="infertilidad_tabla1">
+     Tabla 1. Lista de factores etiológicos implicados en la infertilidad masculina.</string>
+
+
+    <!-- Strings related to Seminograma-->
+    <string name="seminograma_titulo0">Seminograma</string>
+    <string name="seminograma_titulo1">DEFINICIÓN:</string>
+    <string name="seminograma_definicion1">El seminograma es una prueba fundamental en el diagnóstico de la fertilidad masculina.
+        Consiste en una descripción del eyaculado para evaluar la función del tracto reproductivo masculino.
+        Los parámetros característicos incluyen volumen, pH, concentración, motilidad, vitalidad y morfología de los espermatozoides,
+        así como la presencia de otras células en la muestra (2).</string>
+    <string name="seminograma_tabla">
+    La Tabla 2 contiene la clasificación de los resultados del seminograma en base al recuento, movilidad y morfología de los espermatozoides (2, 6).</string>
+    <string name="seminograma_parrafo1">Es importante destacar que los valores de referencia del seminograma corresponden a población fértil, pero en ningún momento indican fertilidad o esterilidad, puesto que varones por debajo de esos valores pueden conseguir gestaciones.</string>
+    <string name="seminograma_parrafo2">A cotinuación os dejamos una lista con algunas de sus definiciones:</string>
+    <string name="seminograma_def1">-	Normozoospermia: se denomina normozoospérmicos a aquellos individuos en cuyo seminograma el recuento de espermatozoides resulta mayor de 39 millones, su movilidad es mayor al 32% y presentan morfología normal.</string>
+    <string name="seminograma_def2">-	Aspermia: se define como la ausencia de eyaculación externa.</string>
+    <string name="seminograma_def3">-	Azoospermia: La ausencia de espermatozoides en la eyaculación.</string>
+    <string name="seminograma_def4">-	Azoospermia obstructiva (AO): Ausencia de espermatozoides en la eyaculación debido a la oclusión del sistema ductal. La obstrucción epididimal es la causa más común de AO (3).</string>
+    <string name="seminograma_def5">-	Azoospermia no obstructiva (ANO): ausencia de espermatozoides en la eyaculación (7). Es la causa más frecuente de espermatogénesis alterada (3).</string>
+    <string name="seminograma_def6">-	Criptozoospermia: se define como un recuento de espermatozoides bajo en el que es necesario concentrar los espermatozoides para poder realizar su recuento. Los espermatozoides parecen ausentes de la preparación fresca, pero son observados en un sedimento centrifugado (6).</string>
+    <string name="seminograma_def7">-	Oligozoospermia severa: se refiere a un recuento de espermatozoides de 1-10 millones / eyaculado.</string>
+    <string name="seminograma_def8">-	Oligozoospermia: se refiere a un recuento de espermatozoides de 10-38 millones / eyaculado. Baja concentración de espermatozoides en la eyaculación por debajo del límite de referencia inferior.</string>
+    <string name="seminograma_def9">-	Astenozoospermia severa: movilidad baja o nula.</string>
+    <string name="seminograma_def10">-	Astenozoospermia: menos del 32% espermatozoides progresivamente móviles.</string>
+    <string name="seminograma_def11">-	Astenoteratozoospermia: reducido porcentaje de espermatozoides móviles y morfológicamente normales en la eyaculación por debajo del límite de referencia inferior menos del 4% de los espermatozoides morfológicamente normales.</string>
+    <string name="seminograma_def12">-	Oligo-Asteno-zoospermia: alteraciones en el recuento y en la movilidad de los espermatozoides.</string>
+    <string name="seminograma_def13">-	Teratozoospermia: presencia de espermatozoides con una morfología anormal. Algunos autores proponen una subclasificación posterior atendiendo a la forma de la cabeza de los espermatozoides. Por lo tanto, la teratozoospermia se clasifica en macrozoospermia (o síndrome de cabeza de esperma macrocefálico) y globozoospermia (o cabeza redonda) (13).</string>
+    <string name="seminograma_def14">-	Oligo-Asteno-Teratozoospermia: Perturbación de los tres parámetros.</string>
+    <string name="seminograma_parrafo3">En este punto, se ha querido realizar un inciso para recordar el proceso de la espermatogénesis.
+        La espermatogénesis es uno de los procesos de diferenciación celular más complejos conocidos.
+        Involucra más de 2.300 genes que intervienen en la regulación del desarrollo testicular, el desarrollo y la maduración de las células germinales (14). Es el proceso de diferenciación de las espermatogonias en espermatozoides, en el cual se requiere la participación de varios tipos de celulares, hormonas, factores paracrinos, genes y reguladores epigenéticos (15). Las etapas de este proceso (Figura 1) tienen lugar en los túbulos seminíferos dentro de los testículos, y son: proliferación de espermatogonias; diferenciación espermatogonial en espermatocitos; división meiótica de espermatocitos que producen espermátidas; maduración de espermátidas redondas; y el lanzamiento de espermatozoides maduros en la luz del túbulo testicular.
+     </string>
+    <string name="seminograma_figura1">
+        Figura 1. Espermatogénesis de mamíferos. R: La espermatogénesis tiene lugar en los túbulos seminíferos dentro de los testículos. B: las células germinales primordiales (espermatogonias) se diferencian en espermátidas primarias y secundarias, espermatocitos y espermatozoides. C: las células de Sertoli proporcionan el ambiente para una espermatogénesis exitosa. D: Esquema de meiosis I y II (16).
+     </string>
+
+    <!-- Strings related to Análisis hormonales-->
+
+    <string name="horm_titulo0">Análisis hormonales</string>
+    <string name="horm_parrafo1">La reproducción implica la integración de señales hormonales que actúan en múltiples sistemas para generar un resultado fisiológico sincronizado (17), de tal forma que es imprescindible una normal estimulación hormonal a fin de lograr una correcta espermatogénesis y una función sexual también normal. Por este motivo, otro de los análisis realizados en la práctica clínica es el análisis hormonal. Las hormonas habitualmente analizadas son: tirotropina (TSH), prolactina, folitropina (FSH), lutropina (LH), progesterona y testosterona. En algunas ocasiones, se solicita un análisis más completo que puede incluir también: estradiol 17-beta, 17-hidroxiprogesterona, Dehidroepiandrosterona (DHEA-S), anticuerpos antimicrosomales (AMA), globulina fijadora de hormonas sexuales (SHBG) y la hormona antimülleriana.</string>
+    <string name="horm_parrafo2">A continuación dejamos una breve descripción de alguna de estas hormonas y su relación en la infertilidad masculina:</string>
+    <string name="horm_def1">-	Tirotropina (TSH):
+    La tirotropina u hormona estimulante de la tiroides (TSH, del inglés Thyroid-Stimulating Hormone) es una hormona producida por la hipófisis que regula la producción de hormonas tiroideas por la glándula tiroides.
+    Se ha descrito que el hiper e hipotiroidismo conllevan efectos adversos sobre sistema reproductor. Mientras que los efectos de la disfunción tiroidea en la función gonadal femenina son bien conocidos, su impacto en la función reproductiva masculina sigue siendo controvertido. Se ha propuesto que el hipotiroidismo puede afectar a la función eréctil y a la calidad del semen en los hombres, concretamente, la morfología de los espermatozoides puede verse significativamente afectada (18).
+    </string>
+    <string name="horm_def2">-	Prolactina:
+    La prolactina es una hormona proteínica producida y secretada por la glándula pituitaria anterior. La evidencia indica que la hiperprolactinemia es una causa frecuente de disfunción reproductiva y puede causar infertilidad en hombres y mujeres  (19).
+    </string>
+    <string name="horm_def3">-	Folitropina (FSH):
+    La hormona estimuladora del folículo u hormona foliculoestimulante, FSH por sus siglas en inglés, interviene en los procesos de gametogénesis tanto en mujeres como en hombres. Concretamente en hombres, se ha observado que la concentración de FSH se halla negativamente relacionada con la concentración de espermatozoides (20).
+    </string>
+    <string name="horm_def4">-	Inhibina-B (Inhb-B):
+    La inhibina B es una glucoproteína responsable de regular a la síntesis de FSH e inhibir la secreción de FSH por parte de la hipófisis en los varones. Por este motivo se ha descrito relacionada con la infertilidad masculina, especialmente en individuos con azoospermias no obstructivas (ANO) (21).
+    </string>
+    <string name="horm_def5">-	Lutropina (LH)
+    La lutropina u hormona luteoestimulante (LH), estimula a las células de Leyding en la producción de testosterona en los hombres.
+    </string>
+    <string name="horm_def6">-	Testosterona
+    La testosterona ejerce un papel fundamental en el desarrollo de los caracteres sexuales y participa en el proceso de la espermatogénesis.
+    </string>
+    <string name="horm_parrafo3">La siguiente tabla (Tabla 3) muestra los estudios hormonales que pueden ser recomendados en algunas situaciones clínicas. Sin embargo, y tal y como se comentó al inicio del presente estudio, a la hora de evaluar la infertilidad masculina es de vital importancia que la valoración hormonal sea conjunta con una correcta anamnesis, exploración clínica, estudios seminales y genéticos que permitan en la medida de lo posible establecer un pronóstico y orientar la práctica clínica.</string>
+    <string name="horm_tabla3">Tabla 3. Estudios hormonales recomendados en función de los resultados del seminograma e interpretación orientativa de los resultados (21).</string>
+
+    <!-- Strings related to Estudio Genetico-->
+
+    <string name="genetic_titulo0">Estudio genético</string>
+    <string name="genetic_parrafo1">Las causas genéticas conocidas en la infertilidad masculina constituyen aproximadamente el 30% de los casos de infertilidad (5). Se ha descrito que aproximadamente el 20% de los pacientes azoospérmicos, presentan algún defecto genético causal (22). Los fenotipos de infertilidad se han asociado con anomalías genéticas específicas, como las cromosómicas, las microdeleciones en el cromosoma Y o las mutaciones en el gen regulador de la conductancia transmembrana de la fibrosis quística (CFTR) (23).  Es por este motivo por el que estas son las pruebas diagnósticas más habituales llevadas a cabo en pacientes con infertilidad masculina en la práctica clínica.  </string>
+    <string name="genetic_btn1">Alteraciones cromosómicas</string>
+    <string name="genetic_btn2">Microdeleciones en el cromosoma Y</string>
+    <string name="genetic_btn3">Fibrosis quística </string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <!-- Strings related to Estudio Genetico: Alteraciones cromosómicas-->
+    <string name="genetic_titulo1">Alteraciones cromosómicas</string>
+    <string name="genetic_subtitulo1_1">Anomalías numéricas o aneuploidías</string>
+    <string name="genetic_subtitulo1_1_1">La inadecuada separación de los cromosomas durante la meiosis puede dar como resultado gametos desequilibrados genéticamente, que pueden dar como resultado embriones aneuploides (trisómicos o monosómicos). La aneuploidía es la anomalía cromosómica más común en los seres humanos, se produce en el 5% de todos los embarazos y en el 0,3% de los nacidos vivos (4). Su incidencia en varones infértiles varía de 2 a 15%, dependiendo de la gravedad del daño espermatogénico. En los varones esto se traduce a problemas en la reproducción debido a la alta tasa de fracaso en la recombinación, así como en la aneuploidía de los espermatozoides (25).</string>
+    <string name="genetic_subtitulo1_1_2">El Síndrome de Klinefelter (SK) es el trastorno cromosómico sexual más frecuente en hombres, su incidencia es de 1/650 nacidos vivos y se estima que más del 70% de los afectados pueden permanecer sin ser diagnosticados a lo largo de su vida (24, 26). A pesar de que su fenotipo es muy variable, las manifestaciones clínicas más habituales son hipogonadismo y azoospermia en más del 90% de los casos (10). La forma clásica de SK se caracteriza por un cariotipo (47,XXY) y representa el 80-90% de los casos (27).  La superdotación de un cromosoma X deriva de la no disyunción meiótica durante la gametogénesis de los padres o de las divisiones de las células mitóticas después de la zigótica durante la embriogénesis temprana (22).</string>
+    <string name="genetic_subtitulo1_1_3">Otras aneuploidías de mayor gravedad son los cariotipos (48,XXXY) o (48,XXYY), o cromosomas X estructuralmente anormales (por ejemplo, 47, iXq, Y) o los mosaicismos como (47,XXY/46,XY) (27). También se ha descrito que la fórmula 47,XYY puede dar problemas seminales y de infertilidad, aunque no hay estudios concluyentes. Estos cariotipos son menos frecuentes y constituyen aproximadamente el 10-20% de los casos restantes. </string>
+    <string name="genetic_subtitulo1_2">Anomalías estructurales</string>
+    <string name="genetic_subtitulo1_2_0">Las alteraciones cromosómicas de los autosomas generalmente son estructurales (translocaciones robertsionanas, translocaciones recíprocas, inversiones, etc.). Habitualmente cursan con oligozoospermia (21).  </string>
+    <string name="genetic_subtitulo1_2_1titulo">- Translocaciones Robertsonianas (TR) </string>
+    <string name="genetic_subtitulo1_2_1">El segundo trastorno cromosómico más frecuente asociado a la infertilidad masculina son las Translocaciones Robertsonianas (TR) (24, 28). Estas translocaciones ocurren cuando dos cromosomas acrocéntricos (es decir, los cromosomas 13, 14, 15, 21 y 22) fusionan sus brazos largos, lo que conduce a la pérdida del material genético –heterocromatina- en los brazos cortos (25). La tasa de prevalencia de la translocación robertsonianas es de 0,9 en varones infértiles, esta cifra es 9 veces mayor que en la población general (29). A pesar del fenotipo normal, la espermatogénesis puede estar alterada debido a la segregación defectuosa de los cromosomas fusionados, así como a las interferencias en el apareamiento y la segregación de otros cromosomas (25). Los hombres afectados muestran una mayor incidencia de aneuploidía espermática, y existe el riesgo de transmitir la translocación a la descendencia, bien en equilibrio bien en forma desequilibrada.</string>
+    <string name="genetic_subtitulo1_2_2titulo">- Translocaciones recíprocas </string>
+    <string name="genetic_subtitulo1_2_2">Las translocaciones recíprocas se observan en 0,9 de 1000 recién nacidos e implican el intercambio de dos segmentos cromosómicos no relacionados. Se han encontrado en aproximadamente el 1% de los hombres infértiles y las más graves desde el punto de vista de la infertilidad se dan entre los cromosomas X e Y.</string>
+    <string name="genetic_subtitulo1_2_3titulo">- Inversiones</string>
+    <string name="genetic_subtitulo1_2_3">Otro tipo de anomalía estructural son las inversiones, que son 8 veces más frecuentes en hombres infértiles que entre la población general. Las que tienen más riesgo de infertilidad suelen ser las del cromosoma 1 – sin contar la de la heterocromatina del centrómero- porque, al ser el cromosoma más grande, tiene muchos genes.</string>
+    <string name="genetic_subtitulo1_2_4">Es interesante recordar la importancia de la detección de alteraciones del cariotipo puesto que en ocasiones revelan síndromes clínicos multisistémicos, en los que la infertilidad es solo una de las diversas características (como el SK). En esta línea, un diagnóstico preciso de las alteraciones cromosómicas es de vital importancia puesto que proporciona un alivio psicológico que aclara una posible causa de la infertilidad, puede anticipar problemas de salud futuros que pasarían inadvertidos en los hombres infértiles, y el asesoramiento genético podría dar una evaluación del riesgo de transmisión de la alteración conocida a la descendencia (30).</string>
+
+
+    <!-- Strings related to Estudio Genetico: Microdeleciones en el cromosoma Y-->
+    <string name="genetic_titulo2">Microdeleciones en el cromosoma Y</string>
+    <string name="genetic_subtitulo2_1"></string>
+
+    <!-- Strings related to Estudio Genetico: Fibrosis quística-->
+    <string name="genetic_titulo3">Fibrosis quística </string>
+    <string name="genetic_subtitulo3_1"></string>
+
+
+    <string name="genetic_titulo4">Otras causas genéticas </string>
+
+    <!-- Strings related to Mapa-->
     <string name="title_activity_maps">Map</string>
 
 </resources>
