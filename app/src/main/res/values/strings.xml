@@ -130,19 +130,6 @@ tienen una base genética. Sin embargo, en un 50% de los casos no se determinan
     <string name="genetic_btn3">Fibrosis quística </string>
 
 
-
-
-
-
-
-
-
-
-
-
-
-    
-
     <!-- Strings related to Estudio Genetico: Alteraciones cromosómicas-->
     <string name="genetic_titulo1">Alteraciones cromosómicas</string>
     <string name="genetic_subtitulo1_1">Anomalías numéricas o aneuploidías</string>
@@ -157,19 +144,104 @@ tienen una base genética. Sin embargo, en un 50% de los casos no se determinan
     <string name="genetic_subtitulo1_2_2">Las translocaciones recíprocas se observan en 0,9 de 1000 recién nacidos e implican el intercambio de dos segmentos cromosómicos no relacionados. Se han encontrado en aproximadamente el 1% de los hombres infértiles y las más graves desde el punto de vista de la infertilidad se dan entre los cromosomas X e Y.</string>
     <string name="genetic_subtitulo1_2_3titulo">- Inversiones</string>
     <string name="genetic_subtitulo1_2_3">Otro tipo de anomalía estructural son las inversiones, que son 8 veces más frecuentes en hombres infértiles que entre la población general. Las que tienen más riesgo de infertilidad suelen ser las del cromosoma 1 – sin contar la de la heterocromatina del centrómero- porque, al ser el cromosoma más grande, tiene muchos genes.</string>
-    <string name="genetic_subtitulo1_2_4">Es interesante recordar la importancia de la detección de alteraciones del cariotipo puesto que en ocasiones revelan síndromes clínicos multisistémicos, en los que la infertilidad es solo una de las diversas características (como el SK). En esta línea, un diagnóstico preciso de las alteraciones cromosómicas es de vital importancia puesto que proporciona un alivio psicológico que aclara una posible causa de la infertilidad, puede anticipar problemas de salud futuros que pasarían inadvertidos en los hombres infértiles, y el asesoramiento genético podría dar una evaluación del riesgo de transmisión de la alteración conocida a la descendencia (30).</string>
+    <string name="genetic_subtitulo1_2_4">Es interesante recordar la importancia de la detección de alteraciones del cariotipo puesto que en ocasiones revelan síndromes clínicos multisistémicos, en los que la infertilidad es solo una de las diversas características (como el Síndrome de Klinefelter). En esta línea, un diagnóstico preciso de las alteraciones cromosómicas es de vital importancia puesto que proporciona un alivio psicológico que aclara una posible causa de la infertilidad, puede anticipar problemas de salud futuros que pasarían inadvertidos en los hombres infértiles, y el asesoramiento genético podría dar una evaluación del riesgo de transmisión de la alteración conocida a la descendencia (30).</string>
+
+
 
 
     <!-- Strings related to Estudio Genetico: Microdeleciones en el cromosoma Y-->
     <string name="genetic_titulo2">Microdeleciones en el cromosoma Y</string>
-    <string name="genetic_subtitulo2_1"></string>
+    <string name="genetic_subtitulo2_1">El cromosoma Y ha sido ampliamente estudiado con el objetivo de identificar factores genéticos implicados en la infertilidad masculina. En este cromosoma se localizan genes fundamentales para la determinación sexual, diferenciación y la fertilidad. </string>
+    <string name="genetic_subtitulo2_2">Son de gran interés en términos de infertilidad las subregiones AZF. </string>
+    <string name="genetic_Figura2">Figura 2.  Mapa del cromosoma Y humano que representa las subregiones AZF y su contenido genético. La región AZFa de aproximadamente 12.9 a 13.7 Mb del cromosoma y contiene dos genes de copia única, USP9Y y DDX3Y. AZFb abarca desde aproximadamente 18 a 24.7 Mb del cromosoma y AZFc de aproximadamente 23 a 26.7 Mb. (11) </string>
+    <string name="genetic_subtitulo2_3"> Se han asociado anomalías estructurales, como deleciones y duplicaciones en las regiones AZF con la infertilidad masculina. Se ha observado que la deleción de cualquiera de las tres regiones anteriormente descritas (29), designadas como microdeleciones AZF conduce a la infertilidad debido a oligo- o azoospermia severa (22). En la última década, muchos investigadores han descrito la ocurrencia de microdeleciones en pacientes infértiles en todo el mundo y el diagnóstico molecular de las deleciones se ha convertido en una prueba importante en el estudio diagnóstico de la infertilidad masculina (33) .</string>
+    <string name="genetic_subtitulo2_4"> Se han descrito las microdeleciones en el cromosoma Y como la causa diagnóstica molecular más común de falla espermatogénica en el contexto de azoospermia no obstructiva u oligozoospermia grave (1). Además, las deleciones clásicas de la región AZF no se han descrito en hombres normozoospérmicos, por lo que representan una relación clara causa y efecto con la falla espermatogénica.</string>
+    <string name="genetic_subtitulo2_5">El tipo de deleción más frecuente es la deleción de la región AZFc (~ 80%) seguido de las deleciones AZFa (0.5-4%), AZFb (1-5%) y AZFbc (1-3%). Las deleciones que se detectan como AZFabc se encuentran relacionadas frecuentemente con un cariotipo anormal como 46, XX masculino o iso (Y) (33).</string>
 
     <!-- Strings related to Estudio Genetico: Fibrosis quística-->
     <string name="genetic_titulo3">Fibrosis quística </string>
-    <string name="genetic_subtitulo3_1"></string>
+    <string name="genetic_subtitulo3_1">La fibrosis quística (FQ) es un trastorno autosómico recesivo causado por mutaciones en el gen CFTR (cystic fibrosis transmenbrane conductance regulador) (7q31.2) y representa el trastorno autosómico recesivo más frecuente en Europa en Europa (3). La prevalencia en el caso de los afectados es de 1 cada 3.500 nacimientos y para los heterocigotos 1 de cada 25 (25). </string>
+    <string name="genetic_subtitulo3_2">El gen CFTR se encuentra en el brazo corto del cromosoma 7 y codifica una proteína de membrana que funciona como un canal de iones y también influye en la formación del conducto de la eyaculación, vesícula seminal, conducto deferente y dos tercios distales del epidídimo (estructuras del conducto de Wolff) (29). Actualmente, en la base de datos del CFTR (http://www.genιtica.sickkids.on.ca/cftr/) se recogen unas 2027 variantes de este gen, siendo la mutación deltaF508 la más prevalente (25). </string>
+    <string name="genetic_subtitulo3_3">Los portadores en heterocigosis pueden presentar pocos espermatozoides o tener afectados los vasos eferentes. La ausencia bilateral congénita de los conductos deferentes (CBAVD) se encuentra en el 1% de los hombres con infertilidad y está presente en el 6% de los casos de azoospermia obstructiva (25). Casi el 95% de los hombres con FQ tienen CBAVD, sin embargo con el uso de técnicas de reproducción asistida (TRA), es posible que los hombres con CBAVD tengan descendencia (34). En este punto es importante destacar que la CBAVD también se da en portadores heterocigotos de FQ con una frecuencia superior a la de la población general (5%).</string>
+    <string name="genetic_subtitulo3_4">Además de variantes patogénicas o mutaciones en el gen CFTR, se han descrito variantes adicionales que incluyen el polimorfismo 5T dentro del intrón 8 en el gen CFTR que se encontró en el 21% de los sujetos y se considera una mutación leve, específicamente asociada con el aumento de riesgo de la infertilidad masculina en los casos en los que va en trans con una mutación. </string>
+    <string name="genetic_subtitulo3_5">También se ha descrito que el polimorfismo 7T dentro del intrón 8 –normal en la población general- junto con la mutación R117 del exón 4 en cis en el gen CFTR puede producir infertilidad. Otras mutaciones comunes incluidas G542X, G551D, R553X, W1282X y N1303K se producen con un frecuencia de 1-2%. Por lo que las mutaciones del gen CFTR son una causa relativamente frecuente de infertilidad (29).</string>
 
 
     <string name="genetic_titulo4">Otras causas genéticas </string>
+    <string name="genetic_titulo4_0">A pesar de que en la práctica clínica las alteraciones cromosómicas, las microdeleciones del cromosoma Y y la fibrosis quística sean las causas genéticas más estudiadas, existen otras anomalías genéticas que pueden influir en la infertilidad masculina. </string>
+
+    <!-- No añado:-->
+    <string name="genetic_titulo4_1_0">- Genes del cromosoma Y</string>
+    <string name="genetic_titulo4_1_1">Como ya se ha comentado, es ampliamente conocida la importancia del cromosoma Y en la determinación sexual, el desarrollo embrionario masculino y la fertilidad. Esta importancia se debe a que en el cromosoma Y se encuentran localizados numerosos genes críticos para el desarrollo gonadal y la espermatogénesis (32).  Entre los genes estudiados, se ha dedicado gran atención al gen SRY, ubicado en el brazo corto del cromosoma Y, como responsable de la determinación del sexo masculino (22).</string>
+    <string name="genetic_titulo4_1_2">Sin embargo, es interesante destacar que el cromosoma Y del mamífero superior carece de la mayoría de los genes localizados originalmente en los cromosomas Y ancestrales. Se ha descrito que algunos genes originales del cromosoma Y se trasladaron a autosomas, y que algunos de estos genes trasladados se expresan en el testículo por lo que participan en la espermatogénesis. Por lo tanto, no sólo los genes del cromosoma Y tienen importancia en la fertilidad masculina, sino que algunos genes adquiridos vinculados al cromosoma X también pueden estar implicados en la infertilidad en los hombres y en la producción de esperma.</string>
+    <string name="genetic_titulo4_2_0">- Mutaciones puntuales</string>
+    <string name="genetic_titulo4_2_1">De la mano con el avance tecnológico, aumenta la descripción de genes asociados con la fertilidad en los hombres. Se han descrito más de 3000 genes asociados con la espermatogénesis, sin embargo tan sólo un 0,01% de estos genes se han evaluado en hombres infértiles (25). Algunos ejemplos de mutaciones genéticas asociadas a Síndromes concretos, que tienen importancia clínica para la infertilidad masculina humana son: mutaciones en el gen CFTR –ya mencionadas previamente-, mutaciones en los genes KAL 1 y FGR1 (en individuos con el Síndrome de Kallmann) y mutaciones en el gen DPY19L2 (25).</string>
+
+    <string name="genetic_titulo4_3_0">En definitiva:</string>
+    <string name="genetic_titulo4_3_1">Es difícil evaluar con precisión la contribución genética a la infertilidad, puesto que probablemente todos los factores tengan un componente genético. Sin embargo, genotipos específicos se han asociado con fenotipos de infertilidad, por lo que los estudios de genes específicos han determinado la naturaleza poligénica y multifactorial de la infertilidad (23). Además de los factores adquiridos y los factores genéticos descritos hasta la fecha, sería necesario tener en cuenta otro tipo de factores, como factores epigenéticos o factores ambientales. Los factores epigenéticos son aquellos que alteran la expresión génica sin cambiar la secuencia de ADN. Entre estos procesos se encuentra: la metilación del ADN, las modificaciones postraduccionales de histonas, la remodelación de la cromatina y la regulación de microARN entre otros (15, 25).  </string>
+
+
+    <string name="genetic_titulo4_3_2">En la actualidad, se han incrementado los intentos por estudiar más causas de infertilidad masculina y proporcionar un diagnóstico y tratamiento más personalizado. Hasta la fecha existen pocos estudios epidemiológicos a gran escala que aborden este tema, y a menudo lo estudios que se han realizado no realizan grandes esfuerzos en determinar si la infertilidad se debe a algún factor genético  (7, 11, 30). </string>
+    <string name="genetic_titulo4_3_3">La evaluación inadecuada de las causas de la infertilidad masculina conduce a una situación común en la que la pareja femenina es sometida a procedimientos TRA invasivos, estresantes y costosos sin considerar soluciones alternativas para manejar la infertilidad de la pareja (7). Además, esta práctica ignora el riesgo de que la descendencia herede la condición causal de la infertilidad de su progenitor en caso de que ésta sea genética (6). </string>
+    <string name="genetic_titulo4_3_4">El mayor estudio monocéntrico prospectivo a largo plazo para las causas de la infertilidad masculina realizado hasta la fecha (7), concluyó que a pesar de que las pautas actuales se encuentran bien establecidas, en la práctica clínica se diagnostican tan solo el 40% de los pacientes. Estos datos muestran una brecha obvia en nuestra comprensión actual de las causas, mecanismos biológicos y vías responsables de la espermatogénesis alterada y de la fisiología reproductiva masculina.</string>
+    <string name="genetic_titulo4_3_5">En definitiva, las herramientas de diagnóstico de infertilidad masculina son limitadas en la actualidad y más de un 50% de los casos no se diagnostican y se atribuyen a formas idiopáticas (11). Las formas idiopáticas de la infertilidad masculina se deben presumiblemente a factores genéticos y ambientales conjuntamente. A la vista del elevado número previsto de genes que participan en la gametogénesis masculina, es probable que las mutaciones o polimorfismos en genes candidatos sean responsables de la mayoría de las formas “idiopaticas” de los trastornos de la espermatogénesis (35). </string>
+    <string name="genetic_titulo4_3_6"></string>
+
+    <string name="genetic_titulo5"></string>
+
+    <!-- Strings related to Bibliografia-->
+    <string name="bibliografia_titulo0">BIBLIOGRAFIA:</string>
+
+    <string name="bibliografia_1">(1) Kim SY, Kim HJ, Lee BY, Park SY, Lee HS, Seo JT. Y Chromosome Microdeletions in Infertile Men with Non-obstructive Azoospermia and Severe Oligozoospermia. J Reprod Infertil. 2017;18(3):307-15.</string>
+    <string name="bibliografia_2">(2) Zegers-Hochschild F, Adamson GD, Dyer S, Racowsky C, de Mouzon J, Sokol R, et al. The International Glossary on Infertility and Fertility Care, 2017. Hum Reprod. 2017;32(9):1786-801.</string>
+    <string name="bibliografia_3">(3) Jungwirth A, Giwercman A, Tournaye H, Diemer T, Kopa Z, Dohle G, et al. European Association of Urology guidelines on Male Infertility: the 2012 update. Eur Urol. 2012;62(2):324-32.</string>
+    <string name="bibliografia_4">(4) Alonso-Cerezoa MC, Calero Ruiz M, Chantada-Abal V, de la Fuente-Hernández LA, García-Cobaleda I, García-Ochoa C, et al. Recomendaciones para el estudio genético e inmunológico en la disfunción reproductiva. Med Clin (Barc).2017.</string>
+    <string name="bibliografia_5">(5) Gunes S, Arslan MA, Hekim GNT, Asci R. The role of epigenetics in idiopathic male infertility. J Assist Reprod Genet. 2016;33(5):553-69.</string>
+    <string name="bibliografia_6">(6) Krausz C. Male infertility: pathogenesis and clinical diagnosis. Best Pract Res Clin Endocrinol Metab. 2011;25(2):271-85.</string>
+    <string name="bibliografia_7">(7) Punab M, Poolamets O, Paju P, Vihljajev V, Pomm K, Ladva R, et al. Causes of male infertility: a 9-year prospective monocentre study on 1737 patients with reduced total sperm counts. Hum Reprod. 2017;32(1):18-31.</string>
+    <string name="bibliografia_8">(8) Qian L, Li Q, Li H. Effect of hepatitis B virus infection on sperm quality and oxidative stress state of the semen of infertile males. Am J Reprod Immunol. 2016;76(3):183-5.</string>
+    <string name="bibliografia_9">(9) Lyu Z, Feng X, Li N, Zhao W, Wei L, Chen Y, et al. Human papillomavirus in semen and the risk for male infertility: a systematic review and meta-analysis. BMC Infect Dis. 2017;17(1):714.</string>
+    <string name="bibliografia_10">(10) Martinez F. Update on fertility preservation from the Barcelona International Society for Fertility Preservation-ESHRE-ASRM 2015 expert meeting: indications, results and future perspectives. Fertil Steril. 2017;108(3):407-15.e11.</string>
+    <string name="bibliografia_11">(11) Esteves SC. Novel concepts in male factor infertility: clinical and laboratory perspectives. J Assist Reprod Genet. 2016;33(10):1319-35.</string>
+    <string name="bibliografia_12">(12) Organization. WH. WHO laboratory manual for the  Examination and processing   of human semen. FIFTH EDITION. ed2010.</string>
+    <string name="bibliografia_13">(13) De Braekeleer M, Nguyen MH, Morel F, Perrin A. Genetic aspects of monomorphic teratozoospermia: a review. J Assist Reprod Genet. 2015;32(4):615-23.</string>
+    <string name="bibliografia_14">(14) Yatsenko AN, Yatsenko SA, Weedin JW, Lawrence AE, Patel A, Peacock S, et al. Comprehensive 5-year study of cytogenetic aberrations in 668 infertile men. J Urol. 2010;183(4):1636-42.</string>
+    <string name="bibliografia_15">(15) Neto FT, Bach PV, Najari BB, Li PS, Goldstein M. Spermatogenesis in humans and its affecting factors. Semin Cell Dev Biol. 2016;59:10-26.</string>
+    <string name="bibliografia_16">(16) Tecle E, Gagneux P. Sugar-coated sperm: Unraveling the functions of the mammalian sperm glycocalyx. Mol Reprod Dev. 2015;82(9):635-50.</string>
+    <string name="bibliografia_17">(17) Rudolph LM, Bentley GE, Calandra RS, Paredes AH, Tesone M, Wu TJ, et al. Peripheral and Central Mechanisms Involved in the Hormonal Control of Male and Female Reproduction. J Neuroendocrinol. 2016;28(7).</string>
+    <string name="bibliografia_18">(18) Nikoobakht MR, Aloosh M, Nikoobakht N, Mehrsay AR, Biniaz F, Karjalian MA. The role of hypothyroidism in male infertility and erectile dysfunction. Urol J. 2012;9(1):405-9.</string>
+    <string name="bibliografia_19">(19) Donato J, Frazão R. Interactions between prolactin and kisspeptin to control reproduction. Arch Endocrinol Metab. 2016;60(6):587-95.</string>
+    <string name="bibliografia_20">(20) Kelsey TW, McConville L, Edgar AB, Ungurianu AI, Mitchell RT, Anderson RA, et al. Follicle Stimulating Hormone is an accurate predictor of azoospermia in childhood cancer survivors. PLoS One. 2017;12(7):e0181377.</string>
+    <string name="bibliografia_21">(21) Manual  de andrología. EdikaMed SL, editor2011.</string>
+    <string name="bibliografia_22">(22) Röpke A, Tüttelmann F. MECHANISMS IN ENDOCRINOLOGY: Aberrations of the X chromosome as cause of male infertility. Eur J Endocrinol. 2017;177(5):R249-R59.</string>
+    <string name="bibliografia_23">(23) Armanet N, Tosca L, Brisset S, Liehr T, Tachdjian G. Small Supernumerary Marker Chromosomes in Human Infertility. Cytogenet Genome Res. 2015;146(2):100-8.</string>
+    <string name="bibliografia_24">(24) Mateos J, Sanjuán S, González M, Rodríguez R, Domínguez C. Prevalencia de cariotipos patológicos en varones infértiles extremeños. Revista Internacional de Andrología. 2011;9(3):95-102.</string>
+    <string name="bibliografia_25">(25) Neto FT, Bach PV, Najari BB, Li PS, Goldstein M. Genetics of Male Infertility. Curr Urol Rep. 2016;17(10):70.</string>
+    <string name="bibliografia_26">(26) Kanakis GA, Nieschlag E. Klinefelter syndrome: more than hypogonadism. Metabolism. 2018.</string>
+    <string name="bibliografia_27">(27) Bonomi M, Rochira V, Pasquali D, Balercia G, Jannini EA, Ferlin A, et al. Klinefelter syndrome (KS): genetics, clinical phenotype and hypogonadism. J Endocrinol Invest. 2017;40(2):123-34.</string>
+    <string name="bibliografia_28">(28) Aittomäki K, Wennerholm UB, Bergh C, Selbing A, Hazekamp J, Nygren KG. Safety issues in assisted reproduction technology: should ICSI patients have genetic testing before treatment? A practical proposition to help patient information. Hum Reprod. 2004;19(3):472-6.</string>
+    <string name="bibliografia_29">(29) Tahmasbpour E, Balasubramanian D, Agarwal A. A multi-faceted approach to understanding male infertility: gene mutations, molecular defects and assisted reproductive techniques (ART). J Assist Reprod Genet. 2014;31(9):1115-37.</string>
+    <string name="bibliografia_30">(30) Ventimiglia E, Capogrosso P, Boeri L, Pederzoli F, Cazzaniga W, Scano R, et al. When to Perform Karyotype Analysis in Infertile Men? Validation of the European Association of Urology Guidelines with the Proposal of a New Predictive Model. Eur Urol. 2016;70(6):920-3.</string>
+    <string name="bibliografia_31">(31) Krausz C, Chianese C, Giachini C, Guarducci E, Laface I, Forti G. The Y chromosome-linked copy number variations and male fertility. J Endocrinol Invest. 2011;34(5):376-82.</string>
+    <string name="bibliografia_32">(32) Halder A, Kumar P, Jain M, Kalsi AK. Genomics: Tool to predict and prevent male infertility. Front Biosci (Schol Ed). 2017;9:448-508.</string>
+    <string name="bibliografia_33">(33) Krausz C, Hoefsloot L, Simoni M, Tüttelmann F, Andrology EAo, Network EMGQ. EAA/EMQN best practice guidelines for molecular diagnosis of Y-chromosomal microdeletions: state-of-the-art 2013. Andrology. 2014;2(1):5-19.</string>
+    <string name="bibliografia_34">(34) De Souza DAS, Faucz FR, Pereira-Ferrari L, Sotomaior VS, Raskin S. Congenital bilateral absence of the vas deferens as an atypical form of cystic fibrosis: reproductive implications and genetic counseling. Andrology. 2018;6(1):127-35.</string>
+    <string name="bibliografia_35">(35) Dohle  G.R, Diemer  T, Giwercman  A, Jungwirth     A, Kopa Z, C. K. Guía clínica sobre la infertilidad masculina. © European Association of Urology 2010.2010.</string>
+    <string name="bibliografia_36">(36) Davis SM, Rogol AD, Ross JL. Testis Development and Fertility Potential in Boys with Klinefelter Syndrome. Endocrinol Metab Clin North Am. 2015;44(4):843-65.</string>
+    <string name="bibliografia_37">(37) Lee HS, Park CW, Lee JS, Seo JT. Hypogonadism Makes Dyslipidemia in Klinefelters Syndrome. J Korean Med Sci. 2017;32(11):1848-51.</string>
+    <string name="bibliografia_38">(38) Borjian Boroujeni P, Sabbaghian M, Vosough Dizaji A, Zarei Moradi S, Almadani N, Mohammadpour Lashkari F, et al. Clinical aspects of infertile 47,XYY patients: a retrospective study. Hum Fertil (Camb). 2017:1-6.</string>
+    <string name="bibliografia_39">(39) Abdel-Razic MM, Abdel-Hamid IA, ElSobky ES. Nonmosaic 47,XYY syndrome presenting with male infertility: case series. Andrologia. 2012;44(3):200-4.</string>
+    <string name="bibliografia_40">(40) Hotaling J, Carrell DT. Clinical genetic testing for male factor infertility: current applications and future directions. Andrology. 2014;2(3):339-50.</string>
+    <string name="bibliografia_41">(41) Wu QY, Li N, Li WW, Li TF, Zhang C, Cui YX, et al. Clinical, molecular and cytogenetic analysis of 46, XX testicular disorder of sex development with SRY-positive. BMC Urol. 2014;14:70.</string>
+    <string name="bibliografia_42">(42) Solé M, Blanco J, Valero O, Vergés L, Vidal F, Sarrate Z. Altered bivalent positioning in metaphase I human spermatocytes from Robertsonian translocation carriers. J Assist Reprod Genet. 2017;34(1):131-8.</string>
+    <string name="bibliografia_43">(43) Tarín JJ, García-Pérez MA, Hamatani T, Cano A. Infertility etiologies are genetically and clinically linked with other diseases in single meta-diseases. Reprod Biol Endocrinol. 2015;13:31.</string>
+    <string name="bibliografia_44">(44) Yu B, Huang Z. Variations in Antioxidant Genes and Male Infertility. Biomed Res Int. 2015;2015:513196.</string>
+    <string name="bibliografia_45">(45) Majzoub A, Arafa M, Starks C, Elbardisi H, Al Said S, Sabanegh E. 46 XX karyotype during male fertility evaluation; case series and literature review. Asian J Androl. 2017;19(2):168-72.</string>
+    <string name="bibliografia_46">(46) Ji ZY, Sha YW, Ding L, Li P. Genetic factors contributing to human primary ciliary dyskinesia and male infertility. Asian J Androl. 2017;19(5):515-20.</string>
+    <string name="bibliografia_47">(47) Geisinger A, Benavente R. Mutations in Genes Coding for Synaptonemal Complex Proteins and Their Impact on Human Fertility. Cytogenet Genome Res. 2016;150(2):77-85.</string>
+    <string name="bibliografia_48">(48) Bieniek JM, Kashanian JA, Deibert CM, Grober ED, Lo KC, Brannigan RE, et al. Influence of increasing body mass index on semen and reproductive hormonal parameters in a multi-institutional cohort of subfertile men. Fertil Steril. 2016;106(5):1070-5.</string>
+    <string name="bibliografia_49">(49) Vaamonde D, Garcia-Manso JM, Hackney AC. Impact of physical activity and exercise on male reproductive potential: a new assessment questionnaire. Rev Andal Med Deport. 2017;10(2):79-93.</string>
+    <string name="bibliografia_50">(50) Skakkebaek NE, Rajpert-De Meyts E, Buck Louis GM, Toppari J, Andersson AM, Eisenberg ML, et al. Male Reproductive Disorders and Fertility Trends: Influences of Environment and Genetic Susceptibility. Physiol Rev. 2016;96(1):55-97.</string>
 
     <!-- Strings related to Mapa-->
     <string name="title_activity_maps">Map</string>
