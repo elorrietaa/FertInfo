@@ -30,8 +30,218 @@
             <TextView
                 android:id="@+id/txtbibliografia_titulo0"
                 android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:lineSpacingExtra="12sp"
+                android:paddingLeft="120dp"
+                android:text="@string/bibliografia_titulo0"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtbibliografia_1"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/bibliografia_1" />
+            <TextView
+                android:id="@+id/bibliografia_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_2" />
+            <TextView
+                android:id="@+id/bibliografia_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_3" />
+            <TextView
+                android:id="@+id/bibliografia_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_4" />
+            <TextView
+                android:id="@+id/bibliografia_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_5" />
+            <TextView
+                android:id="@+id/bibliografia_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_6" />
+            <TextView
+                android:id="@+id/bibliografia_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_7" />
+            <TextView
+                android:id="@+id/bibliografia_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_8" />
+            <TextView
+                android:id="@+id/bibliografia_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_9" />
+            <TextView
+                android:id="@+id/bibliografia_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_10" />
+            <TextView
+                android:id="@+id/txtbibliografia_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_11" />
+            <TextView
+                android:id="@+id/bibliografia_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_12" />
+            <TextView
+                android:id="@+id/bibliografia_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_13" />
+            <TextView
+                android:id="@+id/bibliografia_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_14" />
+            <TextView
+                android:id="@+id/bibliografia_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_15" />
+            <TextView
+                android:id="@+id/bibliografia_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_16" />
+            <TextView
+                android:id="@+id/bibliografia_17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_17" />
+            <TextView
+                android:id="@+id/bibliografia_18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_18" />
+            <TextView
+                android:id="@+id/bibliografia_19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_19" />
+            <TextView
+                android:id="@+id/bibliografia_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_20" />
+            <TextView
+                android:id="@+id/txtbibliografia_21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_21" />
+            <TextView
+                android:id="@+id/bibliografia_22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_22" />
+            <TextView
+                android:id="@+id/bibliografia_23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_23" />
+            <TextView
+                android:id="@+id/bibliografia_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_24" />
+            <TextView
+                android:id="@+id/bibliografia_25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_25" />
+            <TextView
+                android:id="@+id/bibliografia_26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_26" />
+            <TextView
+                android:id="@+id/bibliografia_27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_27" />
+            <TextView
+                android:id="@+id/bibliografia_28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_28" />
+            <TextView
+                android:id="@+id/bibliografia_29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_29" />
+            <TextView
+                android:id="@+id/bibliografia_30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_30" />
+            <TextView
+                android:id="@+id/txtbibliografia_41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_41" />
+            <TextView
+                android:id="@+id/bibliografia_42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_42" />
+            <TextView
+                android:id="@+id/bibliografia_43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_43" />
+            <TextView
+                android:id="@+id/bibliografia_44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_44" />
+            <TextView
+                android:id="@+id/bibliografia_45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_45" />
+            <TextView
+                android:id="@+id/bibliografia_46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_46" />
+            <TextView
+                android:id="@+id/bibliografia_47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_47" />
+            <TextView
+                android:id="@+id/bibliografia_48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_48" />
+            <TextView
+                android:id="@+id/bibliografia_49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_49" />
+            <TextView
+                android:id="@+id/bibliografia_50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bibliografia_50" />
+
+
+
+
         </LinearLayout>
     </ScrollView>
 

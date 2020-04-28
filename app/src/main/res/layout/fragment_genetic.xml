@@ -45,6 +45,12 @@
                 android:layout_height="wrap_content"
                 android:text="@string/genetic_titulo1" />
 
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/figuraaltcromosom" />
+
             <TextView
                 android:id="@+id/txtgenetic_subtitulo1_1"
                 android:layout_width="match_parent"
@@ -109,11 +115,55 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/genetic_subtitulo1_2_3" />
+
             <TextView
                 android:id="@+id/txtgenetic_subtitulo1_2_4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="197dp"
                 android:text="@string/genetic_subtitulo1_2_4" />
+
+            <TextView
+                android:id="@+id/txtgenetic_titulo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/genetic_titulo2" />
+
+            <TextView
+                android:id="@+id/txtgenetic_subtitulo2_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/genetic_subtitulo2_1" />
+
+            <TextView
+                android:id="@+id/txtgenetic_subtitulo2_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/genetic_subtitulo2_2" />
+
+            <TextView
+                android:id="@+id/txtgenetic_Figura2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/genetic_Figura2" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="316dp"
+                app:srcCompat="@drawable/figura2azf" />
+
+            <TextView
+                android:id="@+id/txtgenetic_subtitulo2_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/genetic_subtitulo2_3" />
+
+            <TextView
+                android:id="@+id/txtgenetic_subtitulo2_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/genetic_subtitulo2_4" />
+
             <TextView
                 android:id="@+id/txtgenetic_subtitulo2_5"
                 android:layout_width="match_parent"
