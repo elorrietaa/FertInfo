@@ -85,6 +85,18 @@
                 android:text="@string/infertilidad_definicion2_1" />
 
             <TextView
+                android:id="@+id/infertilidad_definicion2_1_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/infertilidad_definicion2_1_1" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="380dp"
+                android:layout_height="255dp"
+                app:srcCompat="@drawable/introinfertilidad" />
+
+            <TextView
                 android:id="@+id/txtTitulo2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

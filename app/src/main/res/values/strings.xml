@@ -56,6 +56,9 @@ tienen una base genética. Sin embargo, en un 50% de los casos no se determinan
     <string name="infertilidad_definicion2">Infertilidad/esterilidad secundaria:</string>
     <string name="infertilidad_definicion2_1">Condición por la que una pareja, tras un primer embarazo, no consigue quedarse
     embarazada o llevarlo a término otra vez.</string>
+    <string name="infertilidad_definicion2_1_1">Aproximadamente el 15% de las parejas en edad reproductiva presentan problemas de fertilidad. En el 50% de los casos, los parámetros anormales del semen apuntan a un factor asociado a la infertilidad masculina  (3, 4), afectando alguna de estas condiciones aproximadamente al 7% de los hombres (5).
+    </string>
+
     <string name="infertilidad_titulo2">FACTORES ETIOLÓGICOS IMPLICADOS EN LA INFERTILIDAD MASCULINA</string>
     <string name="infertilidad_parrafo2">La infertilidad afecta al 10 a 15% de los hombres durante su edad reproductiva. Se
     ha descrito su naturaleza multifactorial, por lo que se reconoce como un grupo
@@ -70,6 +73,9 @@ tienen una base genética. Sin embargo, en un 50% de los casos no se determinan
     <string name="infertilidad_tabla1">
      Tabla 1. Lista de factores etiológicos implicados en la infertilidad masculina.</string>
 
+    <string name="infertilidad_parrafo3"></string>
+    <string name="infertilidad_parrafo4"></string>
+    <string name="infertilidad_parrafo5"></string>
 
     <!-- Strings related to Seminograma-->
     <string name="seminograma_titulo0">Seminograma</string>
