@@ -14,6 +14,10 @@
     <string name="aqui">aquí.</string>
     <string name="desarrolladopor">Desarrollado por Alba y Sara (2020).</string>
 
+    <!-- Strings related to Mapa -->
+    <string name="direccion">Dirección: </string>
+    <string name="horario">Horario: </string>
+
     <!-- Strings related to menu -->
     <string name="menu_home">Inicio</string>
     <string name="menu_gallery">Gallery</string>

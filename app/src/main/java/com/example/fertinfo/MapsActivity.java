@@ -84,7 +84,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private void getLastLocation(){
         if (checkPermissions()) {
             if (isLocationEnabled()) {
-                mFusedLocationClient.getLastLocation().addOnCompleteListener(
+                /*mFusedLocationClient.getLastLocation().addOnCompleteListener(
                         new OnCompleteListener<Location>() {
                             @Override
                             public void onComplete(@NonNull Task<Location> task) {
@@ -109,7 +109,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                                 }
                             }
                         }
-                );
+                );*/
             } else {
                 Toast.makeText(this, "Turn on location", Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
@@ -218,7 +218,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 LatLng sydney = new LatLng(lati, longi);
 
 
-                mMap.addMarker(new MarkerOptions().position(sydney).title(name).snippet("Helbidea:"+helbidea+"\n"+"Ordutegia:"+ordutegia).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+                mMap.addMarker(new MarkerOptions().position(sydney).title(name).snippet("Dirección: "+helbidea+"\n"+"Horario: "+ordutegia).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
                 mMap.setMapType(mMap.MAP_TYPE_NORMAL);
                 mMap.setInfoWindowAdapter(new GoogleMap.InfoWindowAdapter() {
 
