@@ -97,6 +97,25 @@
                 app:srcCompat="@drawable/introinfertilidad" />
 
             <TextView
+                android:id="@+id/infertilidad_parrafo8"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:text="@string/infertilidad_parrafo8" />
+
+            <TextView
+                android:id="@+id/infertilidad_parrafo9"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:text="@string/infertilidad_parrafo9" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="431dp"
+                android:layout_height="259dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/factoresinferti" />
+
+            <TextView
                 android:id="@+id/txtTitulo2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -126,16 +145,39 @@
                 tools:ignore="VectorDrawableCompat" />
 
             <TextView
+                android:id="@+id/infertilidad_parrafo3"
+                android:layout_width="match_parent"
+                android:layout_height="212dp"
+                android:text="@string/infertilidad_parrafo3" />
+
+            <TextView
+                android:id="@+id/infertilidad_parrafo4"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:text="@string/infertilidad_parrafo4" />
+
+            <TextView
+                android:id="@+id/infertilidad_parrafo5"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:text="@string/infertilidad_parrafo5" />
+
+            <TextView
+                android:id="@+id/infertilidad_parrafo6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/infertilidad_parrafo6" />
+
+            <TextView
+                android:id="@+id/infertilidad_parrafo7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/infertilidad_parrafo7" />
+
+            <TextView
                 android:id="@+id/txt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
-
-            <ImageView
-                android:id="@+id/imageView11"
-                android:layout_width="431dp"
-                android:layout_height="259dp"
-                android:layout_gravity="center"
-                app:srcCompat="@drawable/factoresinferti" />
 
             <TextView
                 android:id="@+id/text_gallery"

@@ -1,5 +1,7 @@
 package com.example.fertinfo.ui.send;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,6 +22,7 @@ public class SendFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
+
         sendViewModel =
                 ViewModelProviders.of(this).get(SendViewModel.class);
         View root = inflater.inflate(R.layout.fragment_send, container, false);
@@ -30,6 +33,7 @@ public class SendFragment extends Fragment {
                 textView.setText(s);
             }
         });
+
         return root;
     }
 }

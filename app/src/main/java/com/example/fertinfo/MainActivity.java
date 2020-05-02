@@ -75,8 +75,14 @@ public class MainActivity extends AppCompatActivity {
             Intent i = new Intent(this,AnalisisActivity.class);
             startActivity(i);
         }
-
-
+        /*if (id==R.id.opcion3) {
+            //redirect user to app Settings
+            Intent i = new Intent(android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+            i.addCategory(Intent.CATEGORY_DEFAULT);
+            i.setData(Uri.parse("package:" + getPackageName()));
+            startActivity(i);
+        }
+        */
 
         return super.onOptionsItemSelected(item);
     }

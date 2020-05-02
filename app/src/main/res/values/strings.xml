@@ -37,6 +37,7 @@
     <!-- Strings related to menu derecha -->
     <string name="opcion_menu1">Calendario</string>
     <string name="opcion_menu2">Acerca de</string>
+    <string name="opcion_menu3">Acerca de</string>
 
     <!-- Strings related to Introducción: infertilidad -->
     <string name="infertilidad_titulo0">Infertilidad masculina</string>
@@ -73,9 +74,15 @@ tienen una base genética. Sin embargo, en un 50% de los casos no se determinan
     <string name="infertilidad_tabla1">
      Tabla 1. Lista de factores etiológicos implicados en la infertilidad masculina.</string>
 
-    <string name="infertilidad_parrafo3"></string>
-    <string name="infertilidad_parrafo4"></string>
-    <string name="infertilidad_parrafo5"></string>
+    <string name="infertilidad_parrafo3">Ante un caso de infertilidad masculina, el primer paso de la práctica clínica es valorar la existencia de factores adquiridos, como puede ser la disfunción sexual, los traumas, las enfermedades infecciosas, los factores hormonales, inmunológicos y anatómicos (malformaciones genitales internas o externas) (7). Entre los casos de infertilidad causada por infecciones, se puede destacar el efecto de la infección por el virus de la hepatitis B sobre la calidad de la esperma y el estado de estrés oxidativo del semen de varones con problemas de fertilidad (8). Recientemente se ha descrito que la infección seminal por el virus del papiloma humano (VPH) puede contribuir al riesgo de infertilidad masculina (9).</string>
+    <string name="infertilidad_parrafo4">En cuanto a la infertilidad en individuos con enfermedades autoinmunes, se ha observado que los hombres con lupus eritematoso sistémico muestran una alta frecuencia de disfunción testicular de células de Sertoli (10). También se ha descrito la presencia de anticuerpos antiespermáticos como consecuencia de infecciones previas o enfermedades inflamatorias del testículo o epidídimo son capaces de alterar la barrera hematotesticular (6), sin embargo estos casos son menos frecuentes y representan menos del 5% de infertilidad masculina.</string>
+    <string name="infertilidad_parrafo5">La lesión testicular también puede causar daños irreparables en el tejido testicular lo cual conduce a la infertilidad (10). Así como la presencia de microorganismos y / o leucocitos en el semen líquido pueden afectar la motilidad de los espermatozoides y la capacidad de fertilización de los espermatozoides debido a la producción de radicales de oxígeno reactivos por leucocitos activados (6).</string>
+    <string name="infertilidad_parrafo6">El varicocele es otra de las causas de infertilidad en varones. Consiste en una dilatación varicosa de las venas del cordón espermático y del escroto, una anomalía física presente en el 11.7% de los hombres con el análisis de semen normal y en el 25,4% de los hombres con semen anormal (3). Esta condición, compromete la calidad del ADN espermático. Se ha descrito que el mecanismo subyacente es el aumento del estrés oxidativo que puede causar daño al ADN nuclear y mitocondrial, lo que conduce a la modificación del material genético y compromete la estructura de la cromatina (11).</string>
+    <string name="infertilidad_parrafo7">También se ha descrito la influencia de las enfermedades crónicas y el sobrepeso o la obesidad (7) como factores de riesgo en la infertilidad masculina.</string>
+
+    <string name="infertilidad_parrafo8">En la práctica clínica, al mismo tiempo que se valoran factores adquiridos se le realice al paciente un seminograma para valorar la calidad espermática, así como análisis complementarios bioquímicos, hormonales y estudios genéticos. </string>
+    <string name="infertilidad_parrafo9">Esta aplicación se centra en estas causas, sin embargo existen otros factores implicados en la infertilidad masculina como la edad, el ejercicio, la obesidad, psicológicos (9, 23). </string>
+    <string name="infertilidad_parrafo10"></string>
 
     <!-- Strings related to Seminograma-->
     <string name="seminograma_titulo0">Seminograma</string>
