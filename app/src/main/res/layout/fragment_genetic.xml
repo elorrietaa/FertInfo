@@ -30,86 +30,104 @@
             <TextView
                 android:id="@+id/txtgenetic_titulo0"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/genetic_titulo0" />
+                android:layout_height="55dp"
+                android:text="@string/genetic_titulo0"
+                android:textColor="@color/colorTitulos"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txtgenetic_parrafo1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="204dp"
                 android:text="@string/genetic_parrafo1" />
 
             <TextView
                 android:id="@+id/txtgenetic_titulo1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/genetic_titulo1" />
+                android:text="@string/genetic_titulo1"
+                android:textColor="@color/colorTitulos"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageView9"
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="263dp"
                 app:srcCompat="@drawable/figuraaltcromosom" />
 
             <TextView
                 android:id="@+id/txtgenetic_subtitulo1_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/genetic_subtitulo1_1" />
+                android:text="@string/genetic_subtitulo1_1"
+                android:textColor="@color/colorTitulos"
+                android:textSize="14sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txtgenetic_subtitulo1_1_1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="199dp"
                 android:text="@string/genetic_subtitulo1_1_1" />
 
             <TextView
                 android:id="@+id/txtgenetic_subtitulo1_1_2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="205dp"
                 android:text="@string/genetic_subtitulo1_1_1" />
 
             <TextView
                 android:id="@+id/txtgenetic_subtitulo1_1_3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="154dp"
                 android:text="@string/genetic_subtitulo1_1_3" />
 
             <TextView
                 android:id="@+id/txtgenetic_subtitulo1_2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/genetic_subtitulo1_2" />
+                android:layout_height="28dp"
+                android:text="@string/genetic_subtitulo1_2"
+                android:textColor="@color/colorTitulos" />
+
             <TextView
                 android:id="@+id/txtgenetic_subtitulo1_2_0"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/genetic_subtitulo1_2_0" />
+                android:layout_height="82dp"
+                android:text="@string/genetic_subtitulo1_2_0"
+                android:textSize="14sp" />
+
             <TextView
                 android:id="@+id/txtgenetic_subtitulo1_2_1titulo"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/genetic_subtitulo1_2_1titulo" />
+                android:layout_height="22dp"
+                android:text="@string/genetic_subtitulo1_2_1titulo"
+                android:textColor="@color/colorSubTitulos" />
             <TextView
                 android:id="@+id/txtgenetic_subtitulo1_2_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/genetic_subtitulo1_2_1" />
+
             <TextView
                 android:id="@+id/txtgenetic_subtitulo1_2_2titulo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/genetic_subtitulo1_2_2titulo" />
+                android:text="@string/genetic_subtitulo1_2_2titulo"
+                android:textColor="@color/colorSubTitulos" />
             <TextView
                 android:id="@+id/txtgenetic_subtitulo1_2_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/genetic_subtitulo1_2_2" />
+
             <TextView
                 android:id="@+id/txtgenetic_subtitulo1_2_3titulo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/genetic_subtitulo1_2_3titulo" />
+                android:text="@string/genetic_subtitulo1_2_3titulo"
+                android:textColor="@color/colorSubTitulos" />
             <TextView
                 android:id="@+id/txtgenetic_subtitulo1_2_3"
                 android:layout_width="match_parent"
@@ -119,19 +137,22 @@
             <TextView
                 android:id="@+id/txtgenetic_subtitulo1_2_4"
                 android:layout_width="match_parent"
-                android:layout_height="197dp"
+                android:layout_height="210dp"
                 android:text="@string/genetic_subtitulo1_2_4" />
 
             <TextView
                 android:id="@+id/txtgenetic_titulo2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/genetic_titulo2" />
+                android:text="@string/genetic_titulo2"
+                android:textColor="@color/colorTitulos"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txtgenetic_subtitulo2_1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="101dp"
                 android:text="@string/genetic_subtitulo2_1" />
 
             <TextView
@@ -155,40 +176,46 @@
             <TextView
                 android:id="@+id/txtgenetic_subtitulo2_3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="180dp"
                 android:text="@string/genetic_subtitulo2_3" />
 
             <TextView
                 android:id="@+id/txtgenetic_subtitulo2_4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="130dp"
                 android:text="@string/genetic_subtitulo2_4" />
 
             <TextView
                 android:id="@+id/txtgenetic_subtitulo2_5"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="103dp"
                 android:text="@string/genetic_subtitulo2_5" />
 
             <TextView
                 android:id="@+id/txtgenetic_titulo3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/genetic_titulo3" />
+                android:layout_height="44dp"
+                android:text="@string/genetic_titulo3"
+                android:textColor="@color/colorTitulos"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/genetic_subtitulo3_1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="134dp"
                 android:text="@string/genetic_subtitulo3_1" />
+
             <TextView
                 android:id="@+id/genetic_subtitulo3_2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="171dp"
                 android:text="@string/genetic_subtitulo3_2" />
+
             <TextView
                 android:id="@+id/genetic_subtitulo3_3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="197dp"
                 android:text="@string/genetic_subtitulo3_3" />
             <TextView
                 android:id="@+id/genetic_subtitulo3_4"
@@ -197,16 +224,100 @@
                 android:text="@string/genetic_subtitulo3_4" />
 
 
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="199dp"
+                app:srcCompat="@drawable/figurafqmutac" />
+
+            <TextView
+                android:id="@+id/genetic_subtitulo3_6"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:text="@string/genetic_subtitulo3_6" />
+
             <TextView
                 android:id="@+id/genetic_titulo4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/genetic_titulo4" />
+                android:text="@string/genetic_titulo4"
+                android:textColor="@color/colorTitulos"
+                android:textSize="24sp"
+                android:textStyle="bold" />
             <TextView
                 android:id="@+id/genetic_titulo4_0"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/genetic_titulo4_0" />
+
+            <TextView
+                android:id="@+id/genetic_titulo4_1_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/genetic_titulo4_1_0"
+                android:textColor="@color/colorTitulos"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/genetic_titulo4_1_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/genetic_titulo4_1_1" />
+            <TextView
+                android:id="@+id/genetic_titulo4_1_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/genetic_titulo4_1_2" />
+            <TextView
+                android:id="@+id/genetic_titulo4_2_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/genetic_titulo4_2_0"
+                android:textColor="@color/colorTitulos"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/genetic_titulo4_2_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/genetic_titulo4_2_1" />
+            <TextView
+                android:id="@+id/genetic_titulo4_3_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/genetic_titulo4_3_0" />
+
+            <TextView
+                android:id="@+id/genetic_titulo4_3_1"
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                android:text="@string/genetic_titulo4_3_1" />
+            <TextView
+                android:id="@+id/genetic_titulo4_3_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/genetic_titulo4_3_2" />
+            <TextView
+            android:id="@+id/genetic_titulo4_3_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/genetic_titulo4_3_3" />
+            <TextView
+                android:id="@+id/genetic_titulo4_3_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/genetic_titulo4_3_4" />
+
+            <TextView
+                android:id="@+id/genetic_titulo4_3_5"
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:text="@string/genetic_titulo4_3_5" />
+
+
+
+
+
 
         </LinearLayout>
     </ScrollView>

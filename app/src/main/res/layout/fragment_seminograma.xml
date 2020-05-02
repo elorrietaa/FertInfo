@@ -35,7 +35,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:text="@string/seminograma_titulo0"
-                android:textSize="24sp"
+                android:textColor="@color/colorTitulos"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -43,6 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/seminograma_titulo1"
+                android:textColor="@color/colorTitulos"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -57,6 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/infertilidad_titulo2"
+                android:textColor="@color/colorTitulos"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 

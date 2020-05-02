@@ -196,9 +196,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
      * installed Google Play services and returned to the app.
      */
 
-
-
-
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
@@ -248,17 +245,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         return info;
                     }
                 });
-
-
-
-
             }
         } catch (JSONException e) {
             e.printStackTrace();
         }
-
-
-
     }
     public String readJSONFromAsset() {
         String json = null;

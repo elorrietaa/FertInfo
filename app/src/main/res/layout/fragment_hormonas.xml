@@ -20,7 +20,10 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -30,57 +33,66 @@
             <TextView
                 android:id="@+id/txthorm_titulo0"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/horm_titulo0" />
+                android:layout_height="51dp"
+                android:text="@string/horm_titulo0"
+                android:textColor="@color/colorTitulos"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txthorm_parrafo1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="251dp"
                 android:text="@string/horm_parrafo1" />
 
             <TextView
                 android:id="@+id/txthorm_parrafo2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="@string/horm_parrafo2" />
 
             <TextView
                 android:id="@+id/txthorm_def1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="219dp"
                 android:text="@string/horm_def1" />
 
             <TextView
                 android:id="@+id/txthorm_def2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:text="@string/horm_def2" />
+
             <TextView
                 android:id="@+id/txthorm_def3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="120dp"
                 android:text="@string/horm_def3" />
+
             <TextView
                 android:id="@+id/txthorm_def4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="121dp"
                 android:text="@string/horm_def4" />
+
             <TextView
                 android:id="@+id/txthorm_def5"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="62dp"
                 android:text="@string/horm_def5" />
+
             <TextView
                 android:id="@+id/txthorm_def6"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="67dp"
                 android:text="@string/horm_def6" />
+
             <TextView
                 android:id="@+id/txthorm_parrafo3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="151dp"
                 android:text="@string/horm_parrafo3" />
+
             <TextView
                 android:id="@+id/txthorm_tabla3"
                 android:layout_width="match_parent"

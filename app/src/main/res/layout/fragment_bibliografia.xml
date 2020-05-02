@@ -32,13 +32,14 @@
 
             <TextView
                 android:id="@+id/txtbibliografia_titulo0"
-                android:layout_width="wrap_content"
-                android:layout_height="42dp"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
                 android:lineSpacingExtra="12sp"
                 android:paddingLeft="120dp"
                 android:text="@string/bibliografia_titulo0"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                android:textSize="24sp"
+                android:textColor="@color/colorTitulos"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
             <TextView
