@@ -29,9 +29,9 @@
     <string name="menu_otros">Otros</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
-
+    <string name="menu_share">Compartir</string>
+    <string name="menu_send">Enviar</string>
+    <string name="menu_info">Info</string>
     <string name="mensaje_compartir">FertInfo, todo lo que necesitas saber sobre infertilidad masculina.</string>
 
     <!-- Strings related to menu derecha -->
@@ -266,5 +266,25 @@ tienen una base genética. Sin embargo, en un 50% de los casos no se determinan
 
     <!-- Strings related to Mapa-->
     <string name="title_activity_maps">Map</string>
+
+    <!-- Strings related to responsabilidad legal-->
+    <string name="responsabilidadlegal_titulo">Descargo de responsabilidad legal:</string>
+    <string name="responsabilidadlegal_parrafo1">El contenido de esta aplicación se presenta solo con fines informativos. Nunca ignore el consejo médico profesional de su médico o proveedor de atención médica ni se demore en buscarlo debido a algo que haya leído en esta solicitud. Esta aplicación ofrece información de salud solo con fines educativos e informativos generales. No es la intención de esta aplicación proporcionar recomendaciones médicas específicas o asesoramiento profesional. Siempre debe consultar con su médico o proveedor de atención médica antes de probar cualquier remedio homeopático, nuevo tratamiento, dieta o programa de ejercicios. No debe usar esta información para diagnosticar o tratar un problema de salud o enfermedad sin consultar con un proveedor de atención médica calificado. Nunca debe ignorar el consejo médico profesional o demorarse en buscarlo debido a algo que ha leído en esta solicitud. Esta aplicación proporciona el contenido de la información "tal cual" y "según esté disponible". No hay garantía expresa o implícita de que esta aplicación sea una fuente integral de información sobre ningún tema de salud o de otro tipo. En ningún caso el creador de esta aplicación será confiable de ninguna manera por daños directos, incidentales, consecuentes, indirectos o punitivos que surjan de su acceso, uso o incapacidad para usar esta aplicación, o cualquier error u omisión en la información en este solicitud. El creador de esta aplicación se reserva el derecho en cualquier momento y de vez en cuando de agregar, cambiar, modificar, actualizar o suspender, temporal o permanentemente, esta aplicación (o cualquier parte de la misma) con o sin previo aviso. El creador de esta aplicación no será confiable para usted ni para ningún tercero para cualquier adición, modificación, suspensión o interrupción de esta aplicación.
+    En ningún caso se pretende sustituir la visita por el Urólogo en la consulta, todas las explicaciones son a título informativo.</string>
+
+    <string name="responsabilidadlegal_parrafo2">Figuras e imágenes:</string>
+    <string name="responsabilidadlegal_parrafo3">En el apartado de bibliografía se hace referencia a los artículos citados en la aplicación.</string>
+    <string name="responsabilidadlegal_parrafo4">Además, los iconos utilizados en la aplicaicón pertenecen a:</string>
+    <string name="responsabilidadlegal_parrafo5">www.flaticon.es</string>
+
+    <!-- Strings related to senD-->
+    <string name="send_1"> ¡MUCHAS GRACIAS!</string>
+    <string name="send_2"> ¡Esperamos que esta aplicación te haya sido de gran utilidad!</string>
+    <string name="send_3_1"> Por favor, </string>
+    <string name="send_3_2"> no olvides darnos tu opinión </string>
+    <string name="send_3_3"> para que podamos seguir mejorando.</string>
+
+    <string name="send_4"> ¡Y decomendar la aplicación a quien le pueda interesar!</string>
+    <string name="send_5"> ¡¡¡MUCHAS GRACIAS!!!</string>
 
 </resources>
