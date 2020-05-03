@@ -42,7 +42,7 @@
                 <TextView
                     android:id="@+id/textView19"
                     android:layout_width="398dp"
-                    android:layout_height="597dp"
+                    android:layout_height="576dp"
                     android:text="@string/responsabilidadlegal_parrafo1" />
 
                 <TextView

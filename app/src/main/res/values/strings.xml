@@ -29,7 +29,7 @@
     <string name="menu_otros">Otros</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_tools">Tools</string>
-    <string name="menu_share">Compartir</string>
+    <string name="menu_share">Información</string>
     <string name="menu_send">Enviar</string>
     <string name="menu_info">Info</string>
     <string name="mensaje_compartir">FertInfo, todo lo que necesitas saber sobre infertilidad masculina.</string>
@@ -209,6 +209,19 @@ tienen una base genética. Sin embargo, en un 50% de los casos no se determinan
     <string name="genetic_titulo4_3_5">En definitiva, las herramientas de diagnóstico de infertilidad masculina son limitadas en la actualidad y más de un 50% de los casos no se diagnostican y se atribuyen a formas idiopáticas (11). Las formas idiopáticas de la infertilidad masculina se deben presumiblemente a factores genéticos y ambientales conjuntamente. A la vista del elevado número previsto de genes que participan en la gametogénesis masculina, es probable que las mutaciones o polimorfismos en genes candidatos sean responsables de la mayoría de las formas “idiopaticas” de los trastornos de la espermatogénesis (35). </string>
 
     <string name="genetic_titulo5"></string>
+
+
+    <!-- Strings related to Otros-->
+    <string name="otros_1">Hemos querido reservar un pequeño espacio para recordar la importancia del Asesoramiento Genético en la práctica clínica. </string>
+    <string name="otros_2">ASESORAMIENTO GENÉTICO</string>
+    <string name="otros_3">El asesoramiento genético permite a los individuos y a las familias con un diagnóstico o con riesgos de una condición genética hereditaria, comprender y adaptarse a las implicaciones de los resultados de estudios genéticos que pueden determinar un diagnóstico definitivo de un síndrome o una predisposición a desarrollar una condición en el adulto. En la actualidad, la posibilidad de conocer dicha información es cada vez mayor gracias a los avances de la genética y genómica y al desarrollo de técnicas de secuenciación masiva que han facilitado el acceso a estudios genéticos moleculares para la prevención, diagnóstico y manejo de síndromes hereditarios. </string>
+    <string name="otros_4">Entre las aplicaciones actuales del asesoramiento genético se encuentra el estudio de trastornos genéticos en pacientes con enfermedades hereditarias como el cáncer. En estos casos el asesoramiento y la interpretación de los resultados pueden permitir la prevención y la detección precoz de la patología, lo cual generalmente conduce a pronósticos más favorables. Además, el asesoramiento genético permite identificar trastornos genéticos para la prevención de transmitir el riesgo a la descendencia mediante diagnóstico genético preimplantacional. O en el caso de parejas con problemas de fertilidad, los resultados y el asesoramiento genético pueden resultar útiles para conocer la causa de la infertilidad y para brindar un adecuado consejo reproductivo.</string>
+    <string name="otros_5">En la actualidad, pocos hospitales cuentan con un especialista en asesoramieto genético. Nos parece importante destacarlo porque se trata de una herramienta realmente útil no sólo en términos de DIAGNÓSTICO, sino también de PREVENCIÓN.</string>
+    <string name="otros_6"> </string>
+    <string name="otros_7"></string>
+    <string name="otros_8"></string>
+    <string name="otros_9"></string>
+
 
     <!-- Strings related to Bibliografia-->
     <string name="bibliografia_titulo0">BIBLIOGRAFIA:</string>

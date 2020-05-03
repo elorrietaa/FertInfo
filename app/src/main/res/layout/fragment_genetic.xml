@@ -20,7 +20,10 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -104,6 +107,7 @@
                 android:layout_height="22dp"
                 android:text="@string/genetic_subtitulo1_2_1titulo"
                 android:textColor="@color/colorSubTitulos" />
+
             <TextView
                 android:id="@+id/txtgenetic_subtitulo1_2_1"
                 android:layout_width="match_parent"
@@ -116,6 +120,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/genetic_subtitulo1_2_2titulo"
                 android:textColor="@color/colorSubTitulos" />
+
             <TextView
                 android:id="@+id/txtgenetic_subtitulo1_2_2"
                 android:layout_width="match_parent"
@@ -128,6 +133,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/genetic_subtitulo1_2_3titulo"
                 android:textColor="@color/colorSubTitulos" />
+
             <TextView
                 android:id="@+id/txtgenetic_subtitulo1_2_3"
                 android:layout_width="match_parent"
@@ -217,6 +223,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="197dp"
                 android:text="@string/genetic_subtitulo3_3" />
+
             <TextView
                 android:id="@+id/genetic_subtitulo3_4"
                 android:layout_width="match_parent"
@@ -244,6 +251,7 @@
                 android:textColor="@color/colorTitulos"
                 android:textSize="24sp"
                 android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/genetic_titulo4_0"
                 android:layout_width="match_parent"
@@ -257,17 +265,20 @@
                 android:text="@string/genetic_titulo4_1_0"
                 android:textColor="@color/colorTitulos"
                 android:textSize="18sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/genetic_titulo4_1_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/genetic_titulo4_1_1" />
+
             <TextView
                 android:id="@+id/genetic_titulo4_1_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/genetic_titulo4_1_2" />
+
             <TextView
                 android:id="@+id/genetic_titulo4_2_0"
                 android:layout_width="match_parent"
@@ -275,12 +286,14 @@
                 android:text="@string/genetic_titulo4_2_0"
                 android:textColor="@color/colorTitulos"
                 android:textSize="18sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/genetic_titulo4_2_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/genetic_titulo4_2_1" />
+
             <TextView
                 android:id="@+id/genetic_titulo4_3_0"
                 android:layout_width="match_parent"
@@ -292,16 +305,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="255dp"
                 android:text="@string/genetic_titulo4_3_1" />
+
             <TextView
                 android:id="@+id/genetic_titulo4_3_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/genetic_titulo4_3_2" />
+
             <TextView
-            android:id="@+id/genetic_titulo4_3_3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/genetic_titulo4_3_3" />
+                android:id="@+id/genetic_titulo4_3_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/genetic_titulo4_3_3" />
+
             <TextView
                 android:id="@+id/genetic_titulo4_3_4"
                 android:layout_width="match_parent"
@@ -313,10 +329,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="172dp"
                 android:text="@string/genetic_titulo4_3_5" />
-
-
-
-
 
 
         </LinearLayout>
